@@ -611,13 +611,115 @@ namespace BeYourMarket.Web.Controllers
             return View(user);
         }
 
-        public async Task<ActionResult> RegisterProducer()
+        /*public async Task<ActionResult> RegisterProducer()
         {
             var userId = User.Identity.GetUserId();
 
             var user = await UserManager.FindByIdAsync(userId);
 
-            return View(user);
+            return View();
+        }*/
+
+            //
+            // GET: /Account/RegisterProducer
+        [AllowAnonymous]
+        public ActionResult RegisterProducer()
+        {
+            return View();
+        }
+
+        //
+        // POST: /Account/RegisterProducer
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> RegisterProducer(RegisterProducerViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await RegisterAccount(model);
+
+                // Add errors
+                AddErrors(result);
+
+                if (result.Succeeded)
+                    return RedirectToAction("Index", "Manage");
+            }
+
+            // If we got this far, something failed, redisplay form
+            return View(model);
+        }
+
+        public async Task<IdentityResult> RegisterAccount(RegisterProducerViewModel model)
+        {
+            var user = new ApplicationUser
+            {
+                UserName = model.Email,
+                Email = model.Email,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Gender = model.Gender,
+                RegisterDate = DateTime.Now,
+                RegisterIP = System.Web.HttpContext.Current.Request.GetVisitorIP(),
+                LastAccessDate = DateTime.Now,
+                LastAccessIP = System.Web.HttpContext.Current.Request.GetVisitorIP()
+            };
+
+            var result = await UserManager.CreateAsync(user, model.Password);
+            await UserManager.AddToRoleAsync(user.Id, Enum_UserType.Producer.ToString());
+            await UserManager.UpdateAsync(user);
+            
+            
+            
+            /*
+            if (result.Succeeded)
+            {
+                await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+
+                // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
+                // Send an email with this link
+                // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
+                // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
+                // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+
+                // Send Message
+                var roleAdministrator = await RoleManager.FindByNameAsync(BeYourMarket.Model.Enum.Enum_UserType.Administrator.ToString());
+                var administrator = roleAdministrator.Users.FirstOrDefault();
+
+                var message = new MessageSendModel()
+                {
+                    UserFrom = administrator.UserId,
+                    UserTo = user.Id,
+                    Subject = HttpContext.ParseAndTranslate(string.Format("[[[Welcome to {0}!]]]", CacheHelper.Settings.Name)),
+                    Body = HttpContext.ParseAndTranslate(string.Format("[[[Hi, Welcome to {0}! I am happy to assist you if you has any questions.]]]", CacheHelper.Settings.Name))
+
+                };
+
+                await MessageHelper.SendMessage(message);
+
+                // Send an email with this link
+                string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
+
+                var urlHelper = new UrlHelper(System.Web.HttpContext.Current.Request.RequestContext);
+                var callbackUrl = urlHelper.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: System.Web.HttpContext.Current.Request.Url.Scheme);
+
+                var emailTemplateQuery = await _emailTemplateService.Query(x => x.Slug.ToLower() == "signup").SelectAsync();
+                var emailTemplate = emailTemplateQuery.FirstOrDefault();
+
+                if (emailTemplate != null)
+                {
+                    dynamic email = new Postal.Email("Email");
+                    email.To = user.Email;
+                    email.From = CacheHelper.Settings.EmailAddress;
+                    email.Subject = emailTemplate.Subject;
+                    email.Body = emailTemplate.Body;
+                    email.CallbackUrl = callbackUrl;
+                    EmailHelper.SendEmail(email);
+                }
+                
+            }
+            */
+            return result;
         }
 
         [HttpPost]

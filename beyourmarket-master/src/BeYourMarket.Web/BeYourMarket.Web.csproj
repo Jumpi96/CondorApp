@@ -291,7 +291,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709021933208_AddDescription.cs" />
+    <Compile Include="Migrations\201709021933208_AddDescription.Designer.cs">
+      <DependentUpon>201709021933208_AddDescription.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\BeYourMarketDatabaseInitializer.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AppearanceModel.cs" />
     <Compile Include="Models\CategoryModel.cs" />
@@ -480,6 +485,7 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
     <Content Include="Views\Emails\_Layout.cshtml" />
+    <Content Include="locale\es\messages.po" />
     <None Include="Views\Listing\_ListingContactModal.cshtml" />
     <Content Include="Views\Shared\_ListingTypes.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_ListingTypes.cshtml" />
@@ -1452,6 +1458,11 @@
       <Project>{86f86650-ee3c-4372-8fec-40c2fe015022}</Project>
       <Name>Service.Pattern</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709021933208_AddDescription.resx">
+      <DependentUpon>201709021933208_AddDescription.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -60,17 +60,6 @@
                                     </div>
 
                                     <div class="form-group">
-                                        @Html.LabelFor(m => m.Gender, new { @class = "col-md-2 control-label" })
-                                        <div class="col-md-10">
-                                            <label class="cr-styled">
-                                                <input type="radio" name="Gender" id="Gender" value="M" @(Model.Gender == "M" ? "checked" : "") /> <i class="fa"></i> [[[Male]]]
-                                            </label> <i class="fa fa-male"></i>
-                                            <label class="cr-styled">
-                                                <input type="radio" name="Gender" id="Gender" value="F" @(Model.Gender == "F" ? "checked" : "") /> <i class="fa"></i> [[[Female]]]
-                                            </label> <i class="fa fa-female"></i>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
                                         <label class="col-md-2 control-label">[[[Profile Picture]]]</label>
                                         <div class="col-md-10">
                                             <input id="file" name="file" type="file" class="file-loading">

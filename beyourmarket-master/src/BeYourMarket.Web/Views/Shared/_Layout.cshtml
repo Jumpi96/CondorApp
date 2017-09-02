@@ -34,9 +34,10 @@
 <body>
     <div class="wrapper row-offcanvas row-offcanvas-left">
 
-        <aside class="left-section sidebar-offcanvas @(Convert.ToBoolean(ViewBag.SideCollapse) ? "collapse-left" : "")">
+        <aside class="left-section sidebar-offcanvas @(Convert.ToBoolean(ViewBag.SideCollapse) ? "collapse-left" : "")"
+                style="background-color:#A8CF45;">
             <header class="header hidden-xs">
-                <a href="@Url.Action("Index", "Home")" class="logo">
+                <a href="@Url.Action("Index", "Home")" class="logo" style="background-color:white; margin-right:100px; width:300px;height:60px;margin-bottom:15px;">
                     <img src="@ImageHelper.GetCommunityImagePath("logo", "png")" alt="@settings.Name">
                 </a>
             </header>
@@ -70,8 +71,10 @@
                     <div class="navbar-right">
                         @Html.Partial("_LoginPartial")
                     </div>
-
-                    <a class="btn navbar-btn btn-default hidden-sm hidden-xs navbar-right" href="@Url.Action("ListingUpdate", "Listing", new { id = string.Empty })"><i class="mdi-content-add-circle-outline"></i> [[[Publish new listing]]]</a>
+                    @if (User.IsInRole("Producer"))
+                    {
+                        <a class="btn navbar-btn btn-default hidden-sm hidden-xs navbar-right" href="@Url.Action("ListingUpdate", "Listing", new { id = string.Empty })"><i class="mdi-content-add-circle-outline"></i> [[[Publish new listing]]]</a>
+                    }
                 </nav>
             </header>
 

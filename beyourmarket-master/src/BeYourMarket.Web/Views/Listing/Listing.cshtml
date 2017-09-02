@@ -156,14 +156,6 @@
                                             }
                                             <tr>
                                                 <td>
-                                                    [[[Listing Type]]]
-                                                </td>
-                                                <td>
-                                                    @Model.ListingCurrent.ListingType.Name
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
                                                     [[[Location]]]
                                                 </td>
                                                 <td>
@@ -258,7 +250,8 @@
                                     <a href="@Url.Action("Profile", "Listing", new { id = Model.User.Id })">
                                         <img class="img-circle profile-picture" src="@BeYourMarket.Web.Utilities.ImageHelper.GetUserProfileImagePath(Model.User.Id)" />
                                     </a>
-                                    <h5>@Model.User.FullName</h5>
+                                    <h4>@Model.User.FullName</h4>
+                                    <p>@Model.User.Gender</p>
                                     <p class="text-lighten">
                                         [[[Joined since]]] @Model.User.RegisterDate.ToShortDateString()
                                     </p>

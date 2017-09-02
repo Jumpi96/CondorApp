@@ -86,7 +86,8 @@ namespace BeYourMarket.Model.Enum
     public enum Enum_UserType
     {
         Normal = 0,
-        Administrator = 1
+        Administrator = 1,
+        Producer = 2
     }
 
     public enum Enum_PluginAction

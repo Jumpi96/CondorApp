@@ -211,7 +211,7 @@ namespace BeYourMarket.Web.Areas.Admin.Controllers
 
             SavePicture(model.Favicon, "favicon", new Size(32, 32));
             SavePicture(model.CoverPhoto, "cover", new Size(1048, 0));
-            SavePicture(model.Logo, "logo", new Size(200, 30), "png");
+            SavePicture(model.Logo, "logo", new Size(400, 60), "png");
 
             return RedirectToAction("Appearance");
         }

@@ -1,4 +1,4 @@
-﻿@model BeYourMarket.Web.Models.ApplicationUser
+﻿@model BeYourMarket.Web.Models.RegisterProducerViewModel
 @{
     ViewBag.Title = "[[[Profile]]]";
 }
@@ -22,54 +22,59 @@
                                 [[[Profile]]]
                             </div>
                             <div class="panel-body">
-                                @using (Html.BeginForm("ProfileUpdate", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+                                @using (Html.BeginForm("RegisterProducer", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
                                 {
                                     @Html.AntiForgeryToken()
                                     <h4>
-                                        <i class="fa fa-user"></i> [[[Profile]]]
-                                        <!--<a class="btn btn-default btn-sm pull-right" href="@Url.Action("Profile", "Listing", new { id = Model.Id })">[[[View Your Profile]]]</a>-->
+                                        <i class="fa fa-user"></i> [[[Producer profile]]]
+                                        
                                     </h4>
                                     <hr />
                                     @Html.ValidationSummary("", new { @class = "text-danger" })
 
                                     <div class="form-group">
-                                        <label class="col-md-2 control-label" for="UserName">[[[UserName]]]</label>
+                                        <label class="col-md-2 control-label" for="Email">[[[Email]]]</label>
                                         <div class="col-md-10">
-                                            @Html.DisplayFor(m => m.UserName, new { @class = "form-control" })
+                                            <input type="text" name="Email" id="Email" class="form-control" placeholder="" data-rule-required="true" data-rule-email="true">
                                         </div>
                                     </div>
-
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="FirstName">[[[First Name]]]</label>
                                         <div class="col-md-10">
-                                            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                                            <input type="text" name="FirstName" id="FirstName" class="form-control" placeholder="" data-rule-required="true">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="LastName">[[[Last Name]]]</label>
                                         <div class="col-md-10">
-                                            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                                            <input type="text" name="LastName" id="LastName" class="form-control" placeholder="" data-rule-required="true">
                                         </div>
                                     </div>
-
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="Gender">[[[Description]]]</label>
+                                        <div class="col-md-10">
+                                            <textarea rows="3" name="Gender" id="Gender" class="form-control" placeholder="" data-rule-required="false"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="Password">[[[Password]]]</label>
+                                        <div class="col-md-10">
+                                            <input type="password" name="Password" id="Password" class="form-control" placeholder="[[[I am… / We are...]]]" data-rule-required="true" data-rule-minlength="6">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="ConfirmPassword">[[[Confirm Password]]]</label>
+                                        <div class="col-md-10">
+                                            <input type="password" name="ConfirmPassword" id="ConfirmPassword" class="form-control" placeholder="" data-rule-required="true" data-rule-minlength="6" data-rule-equalto="#Password">
+                                        </div>
+                                    </div>
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="PhoneNumber">[[[Phone Number]]]</label>
                                         <div class="col-md-10">
-                                            @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+                                            <input type="text" name="PhoneNumber" id="PhoneNumber" class="form-control" placeholder="Ej. 2641234567" data-rule-required="true">
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        @Html.LabelFor(m => m.Gender, new { @class = "col-md-2 control-label" })
-                                        <div class="col-md-10">
-                                            <label class="cr-styled">
-                                                <input type="radio" name="Gender" id="Gender" value="M" @(Model.Gender == "M" ? "checked" : "") /> <i class="fa"></i> [[[Male]]]
-                                            </label> <i class="fa fa-male"></i>
-                                            <label class="cr-styled">
-                                                <input type="radio" name="Gender" id="Gender" value="F" @(Model.Gender == "F" ? "checked" : "") /> <i class="fa"></i> [[[Female]]]
-                                            </label> <i class="fa fa-female"></i>
-                                        </div>
-                                    </div>
                                     <div class="form-group">
                                         <label class="col-md-2 control-label">[[[Profile Picture]]]</label>
                                         <div class="col-md-10">
@@ -108,9 +113,6 @@
             showUpload: false,
             maxFileCount: 1,
             overwriteInitial: true,
-            initialPreview: [
-                    '<img src="@BeYourMarket.Web.Utilities.ImageHelper.GetUserProfileImagePath(Model.Id)" class="file-preview-image">'
-            ],
             maxFileSize: 10000,
             browseClass: "btn btn-default",
             allowedFileTypes: ["image"],
