@@ -1,4 +1,4 @@
-﻿@model BeYourMarket.Web.Models.RegisterProducerViewModel
+﻿@model BeYourMarket.Web.Models.ApplicationUser
 @{
     ViewBag.Title = "[[[Profile]]]";
 }
@@ -11,7 +11,7 @@
     <div class="main-section row">
         <div class="container-fluid mrg-tb">
 
-            @Html.Partial("_DashBoardSide", "producer")
+            @Html.Partial("_DashBoardSide", "profile")
 
             <div class=" col-md-9">
                 <div id="myTabContent" class="tab-content ">
@@ -22,59 +22,49 @@
                                 [[[Profile]]]
                             </div>
                             <div class="panel-body">
-                                @using (Html.BeginForm("RegisterProducer", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+                                @using (Html.BeginForm("ProfileUpdate", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
                                 {
                                     @Html.AntiForgeryToken()
                                     <h4>
-                                        <i class="fa fa-user"></i> [[[Producer profile]]]
-                                        
+                                        <i class="fa fa-user"></i> [[[Profile]]]
+                                        <a class="btn btn-default btn-sm pull-right" href="@Url.Action("Profile", "Listing", new { id = Model.Id })">[[[View Your Profile]]]</a>
                                     </h4>
                                     <hr />
                                     @Html.ValidationSummary("", new { @class = "text-danger" })
 
                                     <div class="form-group">
-                                        <label class="col-md-2 control-label" for="Email">[[[Email]]]</label>
+                                        <label class="col-md-2 control-label" for="UserName">[[[UserName]]]</label>
                                         <div class="col-md-10">
-                                            <input type="text" name="Email" id="Email" class="form-control" placeholder="" data-rule-required="true" data-rule-email="true">
+                                            @Html.DisplayFor(m => m.UserName, new { @class = "form-control" })
                                         </div>
                                     </div>
+
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="FirstName">[[[First Name]]]</label>
                                         <div class="col-md-10">
-                                            <input type="text" name="FirstName" id="FirstName" class="form-control" placeholder="" data-rule-required="true">
+                                            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-md-2 control-label" for="LastName">[[[Last Name]]]</label>
                                         <div class="col-md-10">
-                                            <input type="text" name="LastName" id="LastName" class="form-control" placeholder="" data-rule-required="true">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-md-2 control-label" for="Gender">[[[Description]]]</label>
-                                        <div class="col-md-10">
-                                            <textarea rows="3" name="Gender" id="Gender" class="form-control" placeholder="[[[I am… / We are...]]]" data-rule-required="false"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-md-2 control-label" for="Password">[[[Password]]]</label>
-                                        <div class="col-md-10">
-                                            <input type="password" name="Password" id="Password" class="form-control" placeholder="" data-rule-required="true" data-rule-minlength="6">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-md-2 control-label" for="ConfirmPassword">[[[Confirm Password]]]</label>
-                                        <div class="col-md-10">
-                                            <input type="password" name="ConfirmPassword" id="ConfirmPassword" class="form-control" placeholder="" data-rule-required="true" data-rule-minlength="6" data-rule-equalto="#Password">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-md-2 control-label" for="PhoneNumber">[[[Phone Number]]]</label>
-                                        <div class="col-md-10">
-                                            <input type="text" name="PhoneNumber" id="PhoneNumber" class="form-control" placeholder="Ej. 2641234567" data-rule-required="true">
+                                            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
                                         </div>
                                     </div>
 
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="PhoneNumber">[[[Phone Number]]]</label>
+                                        <div class="col-md-10">
+                                            @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">[[[Profile Picture]]]</label>
+                                        <div class="col-md-10">
+                                            <input id="file" name="file" type="file" class="file-loading">
+                                        </div>
+                                    </div>
                                     <div class="form-group">
                                         <div class="col-md-offset-2 col-md-10">
                                             <input type="submit" value="[[[Save]]]" class="btn btn-primary" />
@@ -107,6 +97,9 @@
             showUpload: false,
             maxFileCount: 1,
             overwriteInitial: true,
+            initialPreview: [
+                    '<img src="@BeYourMarket.Web.Utilities.ImageHelper.GetUserProfileImagePath(Model.Id)" class="file-preview-image">'
+            ],
             maxFileSize: 10000,
             browseClass: "btn btn-default",
             allowedFileTypes: ["image"],

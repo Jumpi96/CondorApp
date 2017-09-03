@@ -18,6 +18,10 @@
         <li class="@( Model == "profile" ? "active" : null )"><a href="@Url.Action("UserProfile", "Manage")"><i class="fa fa-user"></i> [[[Profile]]]</a></li>
         <li class="@( Model == "changepassword" ? "active" : null )"><a href="@Url.Action("ChangePassword", "Manage")"><i class="fa fa-key"></i> [[[Change Password]]]</a></li>
 
+        @if (User.IsInRole("Administrator"))
+        {
+            <li class="@( Model == "shop" ? "active" : null )"><a href="@Url.Action("ShopPhoto", "Manage")"><i class="fa fa-camera"></i> [[[Load photos]]]</a></li>
+        }
 
         @if (User.IsInRole("Administrator"))
         {

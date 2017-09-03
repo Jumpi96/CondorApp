@@ -20,7 +20,7 @@
                 <img class="pull-left-md img-circle profile-picture m-r-10" src="@BeYourMarket.Web.Utilities.ImageHelper.GetUserProfileImagePath(Model.User.Id)" />
 
                 <h3>@Model.User.FullName</h3>
-                <p>@Model.User.Gender</p>
+                <h5>@Model.User.Gender</h5>
                 <p>
                     <span class="score @Model.User.RatingClass"></span>
                     <span>@string.Format("[[[{0:N0} reviews]]]", Model.ListingReviews.Count)</span>

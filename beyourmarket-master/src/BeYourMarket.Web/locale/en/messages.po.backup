@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-02 21:02-03:00\n"
-"PO-Revision-Date: 2017-09-02 21:02-03:00\n"
+"POT-Creation-Date: 2017-09-03 11:39-03:00\n"
+"PO-Revision-Date: 2017-09-03 11:39-03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -74,7 +74,7 @@ msgstr ""
 msgid "Add new page"
 msgstr ""
 
-#: Views\Shared\_DashBoardSide.cshtml:24
+#: Views\Shared\_DashBoardSide.cshtml:28
 msgid "Admin"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgstr ""
 msgid "Button Label"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:132
+#: Views\Listing\ListingUpdate.cshtml:133
 #: Views\Listing\Review.cshtml:74
 #: Views\Payment\Orders.cshtml:26
 #: Views\Payment\Orders.cshtml:30
@@ -302,8 +302,8 @@ msgstr ""
 
 #: Views\Account\Register.cshtml:54
 #: Views\Account\Register.cshtml:55
-#: Views\Listing\ListingUpdate.cshtml:124
 #: Views\Listing\ListingUpdate.cshtml:125
+#: Views\Listing\ListingUpdate.cshtml:126
 #: Views\Manage\RegisterProducer.cshtml:66
 msgid "Confirm Password"
 msgstr ""
@@ -380,7 +380,7 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: Views\Shared\_DashBoardSide.cshtml:25
+#: Views\Shared\_DashBoardSide.cshtml:29
 msgid "Create a producer account"
 msgstr ""
 
@@ -573,7 +573,7 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:114
+#: Views\Listing\ListingUpdate.cshtml:115
 #: Areas\Admin\Views\Manage\SettingsEmail.cshtml:18
 msgid "Email Address"
 msgstr ""
@@ -635,7 +635,7 @@ msgstr ""
 msgid "Enter Email"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:115
+#: Views\Listing\ListingUpdate.cshtml:116
 msgid "Enter Email Address"
 msgstr ""
 
@@ -644,7 +644,7 @@ msgstr ""
 msgid "Enter Location"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:107
+#: Views\Listing\ListingUpdate.cshtml:108
 msgid "Enter Phone Number"
 msgstr ""
 
@@ -677,7 +677,7 @@ msgstr ""
 msgid "Enter your email."
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:103
+#: Views\Listing\ListingUpdate.cshtml:104
 msgid "Enter Your Full Name"
 msgstr ""
 
@@ -754,7 +754,7 @@ msgstr ""
 msgid "Frontend"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:102
+#: Views\Listing\ListingUpdate.cshtml:103
 msgid "Full Name"
 msgstr ""
 
@@ -815,7 +815,7 @@ msgstr ""
 msgid "I accept the"
 msgstr ""
 
-#: Views\Manage\RegisterProducer.cshtml:62
+#: Views\Manage\RegisterProducer.cshtml:56
 msgid "I am… / We are..."
 msgstr ""
 
@@ -919,11 +919,11 @@ msgstr ""
 msgid "Listing ID"
 msgstr ""
 
-#: Controllers\ListingController.cs:595
+#: Controllers\ListingController.cs:630
 msgid "Listing is updated!"
 msgstr ""
 
-#: Controllers\ListingController.cs:868
+#: Controllers\ListingController.cs:903
 msgid "Listing review is not allowed!"
 msgstr ""
 
@@ -970,6 +970,10 @@ msgstr ""
 
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:59
 msgid "Listings by category"
+msgstr ""
+
+#: Views\Shared\_DashBoardSide.cshtml:23
+msgid "Load photos"
 msgstr ""
 
 #: Views\Listing\Listing.cshtml:159
@@ -1085,7 +1089,7 @@ msgstr ""
 msgid "Message is sent."
 msgstr ""
 
-#: Controllers\ListingController.cs:726
+#: Controllers\ListingController.cs:761
 msgid "Message sent succesfully!"
 msgstr ""
 
@@ -1234,8 +1238,8 @@ msgstr ""
 #: Views\Account\Login.cshtml:28
 #: Views\Account\Register.cshtml:50
 #: Views\Account\Register.cshtml:51
-#: Views\Listing\ListingUpdate.cshtml:120
 #: Views\Listing\ListingUpdate.cshtml:121
+#: Views\Listing\ListingUpdate.cshtml:122
 #: Views\Manage\Index.cshtml:13
 #: Views\Manage\RegisterProducer.cshtml:60
 #: Areas\Admin\Views\Install\Index.cshtml:32
@@ -1281,7 +1285,7 @@ msgid "Pending"
 msgstr ""
 
 #: Models\ManageViewModels.cs:65
-#: Views\Listing\ListingUpdate.cshtml:106
+#: Views\Listing\ListingUpdate.cshtml:107
 #: Views\Manage\AddPhoneNumber.cshtml:3
 #: Views\Manage\RegisterProducer.cshtml:72
 #: Views\Manage\UserProfile.cshtml:56
@@ -1379,7 +1383,6 @@ msgstr ""
 msgid "Profile"
 msgstr ""
 
-#: Views\Manage\RegisterProducer.cshtml:79
 #: Views\Manage\UserProfile.cshtml:63
 msgid "Profile Picture"
 msgstr ""
@@ -1392,7 +1395,7 @@ msgstr ""
 msgid "Publish a listing (it's 100% free)"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:131
+#: Views\Listing\ListingUpdate.cshtml:132
 msgid "Publish Listing"
 msgstr ""
 
@@ -1409,7 +1412,7 @@ msgstr ""
 msgid "Published"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:100
+#: Views\Listing\ListingUpdate.cshtml:101
 msgid "Publisher's Info"
 msgstr ""
 
@@ -1493,7 +1496,7 @@ msgstr ""
 msgid "Reviews"
 msgstr ""
 
-#: Views\Manage\RegisterProducer.cshtml:86
+#: Views\Manage\RegisterProducer.cshtml:80
 #: Views\Manage\UserProfile.cshtml:70
 #: Areas\Admin\Views\ContentPage\ContentPageUpdate.cshtml:76
 #: Areas\Admin\Views\Design\Appearance.cshtml:44
@@ -1603,7 +1606,7 @@ msgstr ""
 msgid "Show Email"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:110
+#: Views\Listing\ListingUpdate.cshtml:111
 msgid "Show Phone"
 msgstr ""
 
@@ -1694,8 +1697,8 @@ msgstr ""
 msgid "Thank you for confirming your email."
 msgstr ""
 
-#: Controllers\ListingController.cs:850
-#: Controllers\ListingController.cs:939
+#: Controllers\ListingController.cs:885
+#: Controllers\ListingController.cs:974
 msgid "Thanks for your feedback!"
 msgstr ""
 
@@ -1781,13 +1784,13 @@ msgid "There are no new messages"
 msgstr ""
 
 #: Controllers\ListingController.cs:186
-#: Controllers\ListingController.cs:377
+#: Controllers\ListingController.cs:379
 #: Areas\Admin\Controllers\ListingController.cs:390
 #: Areas\Admin\Controllers\ListingController.cs:490
 msgid "There are not categories available yet."
 msgstr ""
 
-#: Controllers\ListingController.cs:448
+#: Controllers\ListingController.cs:450
 msgid "There are not listing types available yet."
 msgstr ""
 
@@ -2006,21 +2009,21 @@ msgstr ""
 msgid "You cannot delete Administrator, change the user role first."
 msgstr ""
 
-#: Controllers\ListingController.cs:608
+#: Controllers\ListingController.cs:643
 #: Areas\Admin\Controllers\ListingController.cs:657
 msgid "You cannot delete item with orders! You can deactivate it instead."
 msgstr ""
 
-#: Controllers\ListingController.cs:803
+#: Controllers\ListingController.cs:838
 msgid "You cannot review the order!"
 msgstr ""
 
-#: Controllers\ListingController.cs:795
-#: Controllers\ListingController.cs:895
+#: Controllers\ListingController.cs:830
+#: Controllers\ListingController.cs:930
 msgid "You cannot review yourself!"
 msgstr ""
 
-#: Controllers\ListingController.cs:698
+#: Controllers\ListingController.cs:733
 msgid "You cannot send message to yourself!"
 msgstr ""
 
@@ -2028,7 +2031,7 @@ msgstr ""
 msgid "You cannot the listing type. There should be at least one listing type."
 msgstr ""
 
-#: Controllers\ListingController.cs:881
+#: Controllers\ListingController.cs:916
 msgid "You have reach the review limits today!"
 msgstr ""
 
@@ -2057,7 +2060,7 @@ msgstr ""
 msgid "Your Email"
 msgstr ""
 
-#: Controllers\ListingController.cs:616
+#: Controllers\ListingController.cs:651
 msgid "Your listing has been deleted."
 msgstr ""
 
@@ -2102,6 +2105,9 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "ButtonText"
+#~ msgstr ""
+
+#~ msgid "Change shop photo"
 #~ msgstr ""
 
 #~ msgid "CreatedDate"

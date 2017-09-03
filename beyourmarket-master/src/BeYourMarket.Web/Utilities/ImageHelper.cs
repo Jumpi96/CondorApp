@@ -52,6 +52,21 @@ namespace BeYourMarket.Web.Utilities
             }
         }
 
+        public static string GetUserCoverImagePath(string name)
+        {
+            var filePath = string.Format("~/images/cover/{0}.jpg", name);
+            if (File.Exists(HostingEnvironment.MapPath(filePath)))
+            {
+                //return ImageVersion(filePath);
+                return filePath.Substring(2).Replace("/","\\");
+            }
+            else
+            {
+                //return "http://www.gravatar.com/avatar/?d=mm";
+                return "images/cover/default.jpg";
+            }
+        }
+
         public static string GetCommunityImagePath(string name, string format = "jpg", bool returnEmptyIfNotFound = false)
         {
             var filePath = string.Format("~/images/community/{0}.{1}", name, format);

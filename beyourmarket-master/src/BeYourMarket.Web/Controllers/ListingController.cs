@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
+using System.IO;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
@@ -14,7 +15,6 @@ using Repository.Pattern.UnitOfWork;
 using ImageProcessor.Imaging.Formats;
 using System.Drawing;
 using ImageProcessor;
-using System.IO;
 using System.Collections.Generic;
 using BeYourMarket.Model.Enum;
 using BeYourMarket.Web.Models.Grids;
@@ -371,6 +371,8 @@ namespace BeYourMarket.Web.Controllers
         [AllowAnonymous]
         public async Task<ActionResult> ListingUpdate(Listing listing, FormCollection form, IEnumerable<HttpPostedFileBase> files)
         {
+            listing.ContactEmail = "";
+            listing.ContactName = "";
             if (CacheHelper.Categories.Count == 0)
             {
                 TempData[TempDataKeys.UserMessageAlertState] = "bg-danger";
@@ -541,6 +543,39 @@ namespace BeYourMarket.Web.Controllers
                 if (itemPictureQuery.Count() > 0)
                     nextPictureOrderId = itemPictureQuery.Max(x => x.Ordering);
             }
+
+            // Agregado juan
+
+            var pictured = new Picture();
+            pictured.MimeType = "image/jpeg";
+            _pictureService.Insert(pictured);
+            await _unitOfWorkAsync.SaveChangesAsync();
+
+            ISupportedImageFormat formato = new JpegFormat { Quality = 90 };
+            Size sizecover = new Size(500, 0);
+
+            
+            var rutaActual = ImageHelper.GetUserCoverImagePath(listing.UserID);
+            rutaActual = Path.Combine(Server.MapPath("~"), rutaActual);
+            var ruta = Path.Combine(Server.MapPath("~/images/listing"), string.Format("{0}.{1}", pictured.ID.ToString("00000000"), "jpg"));
+            System.IO.File.Copy(rutaActual, ruta);
+                
+                // Load, resize, set the format and quality and save an image.
+                /*imageFactory.Load(ImageHelper.GetUserCoverImagePath(listing.UserID))
+                            .Resize(sizecover)
+                            .Format(formato)
+                            .Save(ruta);*/
+                
+            
+
+            var itemPictured = new ListingPicture();
+            itemPictured.ListingID = listing.ID;
+            itemPictured.PictureID = pictured.ID;
+            itemPictured.Ordering = nextPictureOrderId;
+
+            _listingPictureservice.Insert(itemPictured);
+
+            nextPictureOrderId++;
 
             if (files != null && files.Count() > 0)
             {

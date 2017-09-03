@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-02 21:04-03:00\n"
-"PO-Revision-Date: 2017-09-02 21:04-03:00\n"
+"POT-Creation-Date: 2017-09-03 11:43-03:00\n"
+"PO-Revision-Date: 2017-09-03 11:43-03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -74,14 +74,14 @@ msgstr ""
 msgid "Add new page"
 msgstr ""
 
-#: Views\Shared\_DashBoardSide.cshtml:24
+#: Views\Shared\_DashBoardSide.cshtml:28
 msgid "Admin"
 msgstr ""
 
 #: Views\Shared\_LoginPartial.cshtml:71
 #: Views\Shared\_NavigationSide.cshtml:92
 msgid "Admin Panel"
-msgstr ""
+msgstr "Administración"
 
 #: Areas\Admin\Views\Install\Index.cshtml:28
 msgid "Admin user email"
@@ -170,7 +170,7 @@ msgstr ""
 msgid "Button Label"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:132
+#: Views\Listing\ListingUpdate.cshtml:133
 #: Views\Listing\Review.cshtml:74
 #: Views\Payment\Orders.cshtml:26
 #: Views\Payment\Orders.cshtml:30
@@ -298,15 +298,15 @@ msgstr "Confirme la nueva contraseña"
 #: Models\AccountViewModels.cs:104
 #: Models\AccountViewModels.cs:131
 msgid "Confirm password"
-msgstr "confirme contraseña"
+msgstr "Confirme contraseña"
 
 #: Views\Account\Register.cshtml:54
 #: Views\Account\Register.cshtml:55
-#: Views\Listing\ListingUpdate.cshtml:124
 #: Views\Listing\ListingUpdate.cshtml:125
+#: Views\Listing\ListingUpdate.cshtml:126
 #: Views\Manage\RegisterProducer.cshtml:66
 msgid "Confirm Password"
-msgstr "confirme contraseña"
+msgstr "Confirme contraseña"
 
 #: Views\Payment\Orders.cshtml:159
 #: Areas\Admin\Views\Payment\Order.cshtml:135
@@ -380,9 +380,9 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: Views\Shared\_DashBoardSide.cshtml:25
+#: Views\Shared\_DashBoardSide.cshtml:29
 msgid "Create a producer account"
-msgstr ""
+msgstr "Crear una cuenta de productor"
 
 #: Views\Account\Register.cshtml:12
 #: Views\Shared\_LoginPartial.cshtml:85
@@ -444,7 +444,7 @@ msgstr ""
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:3
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:76
 msgid "Dashboard"
-msgstr ""
+msgstr "Configurar"
 
 #: Areas\Admin\Views\Install\Index.cshtml:63
 msgid "Database"
@@ -571,9 +571,9 @@ msgstr ""
 #: Areas\Admin\Views\Manage\Users.cshtml:39
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:56
 msgid "Email"
-msgstr "correo"
+msgstr "Correo"
 
-#: Views\Listing\ListingUpdate.cshtml:114
+#: Views\Listing\ListingUpdate.cshtml:115
 #: Areas\Admin\Views\Manage\SettingsEmail.cshtml:18
 msgid "Email Address"
 msgstr "Dirección de correo"
@@ -635,7 +635,7 @@ msgstr "Ingresar correo"
 msgid "Enter Email"
 msgstr "Ingresar correo"
 
-#: Views\Listing\ListingUpdate.cshtml:115
+#: Views\Listing\ListingUpdate.cshtml:116
 msgid "Enter Email Address"
 msgstr "Ingresar dirección de correo"
 
@@ -644,7 +644,7 @@ msgstr "Ingresar dirección de correo"
 msgid "Enter Location"
 msgstr "Ingresar Ubicación"
 
-#: Views\Listing\ListingUpdate.cshtml:107
+#: Views\Listing\ListingUpdate.cshtml:108
 msgid "Enter Phone Number"
 msgstr ""
 
@@ -677,7 +677,7 @@ msgstr ""
 msgid "Enter your email."
 msgstr "Ingrese su correo"
 
-#: Views\Listing\ListingUpdate.cshtml:103
+#: Views\Listing\ListingUpdate.cshtml:104
 msgid "Enter Your Full Name"
 msgstr ""
 
@@ -727,7 +727,7 @@ msgstr ""
 #: Views\Manage\UserProfile.cshtml:43
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:30
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 #: Views\Account\ForgotPasswordConfirmation.cshtml:2
 msgid "Forgot Password Confirmation"
@@ -754,7 +754,7 @@ msgstr ""
 msgid "Frontend"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:102
+#: Views\Listing\ListingUpdate.cshtml:103
 msgid "Full Name"
 msgstr ""
 
@@ -805,7 +805,7 @@ msgstr ""
 #: Controllers\AccountController.cs:247
 #: Controllers\ManageController.cs:694
 msgid "Hi, Welcome to {0}! I am happy to assist you if you has any questions."
-msgstr ""
+msgstr "Hola! Bienvenido a {0}! Estoy feliz de asistirte si tienes alguna pregunta."
 
 #: Areas\Admin\Views\Manage\SettingsEmail.cshtml:32
 msgid "Host"
@@ -815,9 +815,9 @@ msgstr ""
 msgid "I accept the"
 msgstr ""
 
-#: Views\Manage\RegisterProducer.cshtml:62
+#: Views\Manage\RegisterProducer.cshtml:56
 msgid "I am… / We are..."
-msgstr ""
+msgstr "Soy... / Somos..."
 
 #: Areas\Admin\Views\Install\Index.cshtml:89
 #: Areas\Admin\Views\Plugin\Plugins.cshtml:21
@@ -891,7 +891,7 @@ msgstr ""
 #: Views\Manage\UserProfile.cshtml:49
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:37
 msgid "Last Name"
-msgstr ""
+msgstr "Apellido"
 
 #: Areas\Admin\Views\ContentPage\ContentPages.cshtml:50
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:122
@@ -901,7 +901,7 @@ msgstr ""
 
 #: Views\Home\Index.cshtml:33
 msgid "Latest Listings"
-msgstr ""
+msgstr "Últimos productos"
 
 #: Views\Account\Login.cshtml:34
 msgid "Let me in"
@@ -919,11 +919,11 @@ msgstr "Detalles de la publicación"
 msgid "Listing ID"
 msgstr "ID de publicación"
 
-#: Controllers\ListingController.cs:595
+#: Controllers\ListingController.cs:630
 msgid "Listing is updated!"
 msgstr "Publicación actualizada"
 
-#: Controllers\ListingController.cs:868
+#: Controllers\ListingController.cs:903
 msgid "Listing review is not allowed!"
 msgstr ""
 
@@ -971,6 +971,10 @@ msgstr "Publicaciones"
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:59
 msgid "Listings by category"
 msgstr "Publicaciones por categorías"
+
+#: Views\Shared\_DashBoardSide.cshtml:23
+msgid "Load photos"
+msgstr "Cargar fotos"
 
 #: Views\Listing\Listing.cshtml:159
 #: Views\Listing\Listings.cshtml:70
@@ -1085,7 +1089,7 @@ msgstr "Mensaje"
 msgid "Message is sent."
 msgstr ""
 
-#: Controllers\ListingController.cs:726
+#: Controllers\ListingController.cs:761
 msgid "Message sent succesfully!"
 msgstr ""
 
@@ -1234,8 +1238,8 @@ msgstr ""
 #: Views\Account\Login.cshtml:28
 #: Views\Account\Register.cshtml:50
 #: Views\Account\Register.cshtml:51
-#: Views\Listing\ListingUpdate.cshtml:120
 #: Views\Listing\ListingUpdate.cshtml:121
+#: Views\Listing\ListingUpdate.cshtml:122
 #: Views\Manage\Index.cshtml:13
 #: Views\Manage\RegisterProducer.cshtml:60
 #: Areas\Admin\Views\Install\Index.cshtml:32
@@ -1281,7 +1285,7 @@ msgid "Pending"
 msgstr ""
 
 #: Models\ManageViewModels.cs:65
-#: Views\Listing\ListingUpdate.cshtml:106
+#: Views\Listing\ListingUpdate.cshtml:107
 #: Views\Manage\AddPhoneNumber.cshtml:3
 #: Views\Manage\RegisterProducer.cshtml:72
 #: Views\Manage\UserProfile.cshtml:56
@@ -1314,7 +1318,7 @@ msgstr ""
 #: Views\Listing\Review.cshtml:70
 #: Views\Listing\_ListingReviewModal.cshtml:25
 msgid "Please Rate"
-msgstr ""
+msgstr "Por favor puntúe"
 
 #: C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Plugins\Plugin.Payment.Stripe\Controllers\PaymentStripeController.cs:383
 #: C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Plugins\Plugin.Widget.Disqus\Controllers\DisqusController.cs:83
@@ -1367,7 +1371,7 @@ msgstr ""
 
 #: Views\Manage\RegisterProducer.cshtml:29
 msgid "Producer profile"
-msgstr ""
+msgstr "Perfil de productor"
 
 #: Views\Listing\Profile.cshtml:7
 #: Views\Manage\RegisterProducer.cshtml:3
@@ -1379,7 +1383,6 @@ msgstr ""
 msgid "Profile"
 msgstr "Perfil"
 
-#: Views\Manage\RegisterProducer.cshtml:79
 #: Views\Manage\UserProfile.cshtml:63
 msgid "Profile Picture"
 msgstr "Foto de perfil"
@@ -1392,7 +1395,7 @@ msgstr ""
 msgid "Publish a listing (it's 100% free)"
 msgstr "Realizar una publicación"
 
-#: Views\Listing\ListingUpdate.cshtml:131
+#: Views\Listing\ListingUpdate.cshtml:132
 msgid "Publish Listing"
 msgstr "Realizar una publicación"
 
@@ -1409,7 +1412,7 @@ msgstr "Realizar una nueva publicación"
 msgid "Published"
 msgstr "publicado"
 
-#: Views\Listing\ListingUpdate.cshtml:100
+#: Views\Listing\ListingUpdate.cshtml:101
 msgid "Publisher's Info"
 msgstr "Información del vendedor"
 
@@ -1493,7 +1496,7 @@ msgstr "Opinión"
 msgid "Reviews"
 msgstr "Opiniones"
 
-#: Views\Manage\RegisterProducer.cshtml:86
+#: Views\Manage\RegisterProducer.cshtml:80
 #: Views\Manage\UserProfile.cshtml:70
 #: Areas\Admin\Views\ContentPage\ContentPageUpdate.cshtml:76
 #: Areas\Admin\Views\Design\Appearance.cshtml:44
@@ -1601,9 +1604,9 @@ msgstr ""
 #: Areas\Admin\Views\Listing\Listings.cshtml:70
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:74
 msgid "Show Email"
-msgstr "mostrar correo"
+msgstr "Mostrar correo"
 
-#: Views\Listing\ListingUpdate.cshtml:110
+#: Views\Listing\ListingUpdate.cshtml:111
 msgid "Show Phone"
 msgstr "Mostrar teléfono"
 
@@ -1694,8 +1697,8 @@ msgstr ""
 msgid "Thank you for confirming your email."
 msgstr "Gracias por confirmar tu correo"
 
-#: Controllers\ListingController.cs:850
-#: Controllers\ListingController.cs:939
+#: Controllers\ListingController.cs:885
+#: Controllers\ListingController.cs:974
 msgid "Thanks for your feedback!"
 msgstr ""
 
@@ -1781,13 +1784,13 @@ msgid "There are no new messages"
 msgstr "No hay nuevos mensajes"
 
 #: Controllers\ListingController.cs:186
-#: Controllers\ListingController.cs:377
+#: Controllers\ListingController.cs:379
 #: Areas\Admin\Controllers\ListingController.cs:390
 #: Areas\Admin\Controllers\ListingController.cs:490
 msgid "There are not categories available yet."
 msgstr ""
 
-#: Controllers\ListingController.cs:448
+#: Controllers\ListingController.cs:450
 msgid "There are not listing types available yet."
 msgstr ""
 
@@ -1824,7 +1827,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:42
 #: Areas\Admin\Views\Payment\Order.cshtml:99
 msgid "Title"
-msgstr "Título"
+msgstr "Producto"
 
 #: Controllers\PaymentController.cs:322
 #: Views\Listing\Listings.cshtml:78
@@ -1979,7 +1982,7 @@ msgstr ""
 #: Views\Listing\Review.cshtml:72
 #: Views\Listing\_ListingReviewModal.cshtml:27
 msgid "Write your review..."
-msgstr ""
+msgstr "Escriba su comentario..."
 
 #: App_Code\RazorHelper.cshtml:7
 msgid "Yes"
@@ -2006,21 +2009,21 @@ msgstr ""
 msgid "You cannot delete Administrator, change the user role first."
 msgstr ""
 
-#: Controllers\ListingController.cs:608
+#: Controllers\ListingController.cs:643
 #: Areas\Admin\Controllers\ListingController.cs:657
 msgid "You cannot delete item with orders! You can deactivate it instead."
 msgstr ""
 
-#: Controllers\ListingController.cs:803
+#: Controllers\ListingController.cs:838
 msgid "You cannot review the order!"
 msgstr ""
 
-#: Controllers\ListingController.cs:795
-#: Controllers\ListingController.cs:895
+#: Controllers\ListingController.cs:830
+#: Controllers\ListingController.cs:930
 msgid "You cannot review yourself!"
 msgstr ""
 
-#: Controllers\ListingController.cs:698
+#: Controllers\ListingController.cs:733
 msgid "You cannot send message to yourself!"
 msgstr ""
 
@@ -2028,7 +2031,7 @@ msgstr ""
 msgid "You cannot the listing type. There should be at least one listing type."
 msgstr ""
 
-#: Controllers\ListingController.cs:881
+#: Controllers\ListingController.cs:916
 msgid "You have reach the review limits today!"
 msgstr ""
 
@@ -2057,7 +2060,7 @@ msgstr ""
 msgid "Your Email"
 msgstr "Tu correo"
 
-#: Controllers\ListingController.cs:616
+#: Controllers\ListingController.cs:651
 msgid "Your listing has been deleted."
 msgstr ""
 
@@ -2103,6 +2106,9 @@ msgstr "Tu contraseña fue reiniciada"
 
 #~ msgid "ButtonText"
 #~ msgstr ""
+
+#~ msgid "Change shop photo"
+#~ msgstr "Cambiar foto de negocio"
 
 #~ msgid "CreatedDate"
 #~ msgstr ""

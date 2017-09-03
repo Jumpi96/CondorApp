@@ -1,0 +1,207 @@
+﻿<error errorId="96075bec-30a6-4fa4-918e-a24adbbd64ae" host="DESKTOP-2BQ04QL" type="System.IO.FileNotFoundException" message="/images/cover/ce0103a5-cbae-4757-a1f2-cfbe7f2f6cfb.jpg" source="ImageProcessor" detail="System.IO.FileNotFoundException: /images/cover/ce0103a5-cbae-4757-a1f2-cfbe7f2f6cfb.jpg&#xD;&#xA;   en ImageProcessor.ImageFactory.Load(String imagePath)&#xD;&#xA;   en BeYourMarket.Web.Controllers.ListingController.&lt;ListingUpdate&gt;d__36.MoveNext() en C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\BeYourMarket.Web\Controllers\ListingController.cs:línea 562&#xD;&#xA;--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   en System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;BeginInvokeAsynchronousActionMethod&gt;b__36(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3d()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;&gt;c__DisplayClass46.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3f()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass33.&lt;BeginInvokeActionMethodWithFilters&gt;b__32(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)" user="juanp@gmail.com" time="2017-09-03T13:56:09.7549726Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_CONTENT_LENGTH:2129478&#xD;&#xA;HTTP_CONTENT_TYPE:multipart/form-data; boundary=---------------------------257822738013884&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=Wk48wotDZJFJ_pPevQMOSyYuuQu20z_8akqMjq3xv3GnswLHpnnod-OuUb4ldM-aDeQQb6_zQ7Xy89biH9p4fJzbHBbDm2g1NM-r-PyzUVo1; .AspNet.ApplicationCookie=A-fQxzLQCy4q946LpzcjahZAY4cLR2-W2RevnGeD_6tH2JtGCN4TxdjvpmFSGNfR-3qsZGqxtsH7_y_UEEo40ZYOJvoc5pwNyMIptG6CmmY7MgB5m0tJPakvXEUC8YCHg7hDj0qKJn6baQX90X2o8rZ_zm0LjzsdXlfK3fVIAc5J_BgqMR-fundphQvL2Aoe3NWn4mGBasgFo-2XIxW1kRP6_qR2AMtFUnOS-myqn0HdLSn_IflIaXUP9NjFH15IU73DEVOurS9FK-Jct3-B-iEzgS1kXcXMlyr4ho4yOp7DCAyZQDpjf3vv3rk4oHsk6rYft2UhjTYfg3SlsKu05t_m2HuaQ4gBJ3v5w388YbWk8c_exciQIiLGDDKwV66Yj3wtHQKCJu6THqcPBGoDbFWqd4Xw7BcE_Lkh5crFfDgg2EV4_jB1tdrHC6VopsnTLYlqyRoFfpTOztEl1r9LYsI_PzCLTo4sDntofN7eQu8TwLvWpRyC_PyHQUQ78jraoXQlkgln8vVmRT4XM68kfw&#xD;&#xA;HTTP_HOST:localhost:54476&#xD;&#xA;HTTP_REFERER:http://localhost:54476/es/listing/listingupdate&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Content-Length: 2129478&#xD;&#xA;Content-Type: multipart/form-data; boundary=---------------------------257822738013884&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3&#xD;&#xA;Cookie: __RequestVerificationToken=Wk48wotDZJFJ_pPevQMOSyYuuQu20z_8akqMjq3xv3GnswLHpnnod-OuUb4ldM-aDeQQb6_zQ7Xy89biH9p4fJzbHBbDm2g1NM-r-PyzUVo1; .AspNet.ApplicationCookie=A-fQxzLQCy4q946LpzcjahZAY4cLR2-W2RevnGeD_6tH2JtGCN4TxdjvpmFSGNfR-3qsZGqxtsH7_y_UEEo40ZYOJvoc5pwNyMIptG6CmmY7MgB5m0tJPakvXEUC8YCHg7hDj0qKJn6baQX90X2o8rZ_zm0LjzsdXlfK3fVIAc5J_BgqMR-fundphQvL2Aoe3NWn4mGBasgFo-2XIxW1kRP6_qR2AMtFUnOS-myqn0HdLSn_IflIaXUP9NjFH15IU73DEVOurS9FK-Jct3-B-iEzgS1kXcXMlyr4ho4yOp7DCAyZQDpjf3vv3rk4oHsk6rYft2UhjTYfg3SlsKu05t_m2HuaQ4gBJ3v5w388YbWk8c_exciQIiLGDDKwV66Yj3wtHQKCJu6THqcPBGoDbFWqd4Xw7BcE_Lkh5crFfDgg2EV4_jB1tdrHC6VopsnTLYlqyRoFfpTOztEl1r9LYsI_PzCLTo4sDntofN7eQu8TwLvWpRyC_PyHQUQ78jraoXQlkgln8vVmRT4XM68kfw&#xD;&#xA;Host: localhost:54476&#xD;&#xA;Referer: http://localhost:54476/es/listing/listingupdate&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\BeYourMarket.Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="ApplicationCookie" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="juanp@gmail.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="juanp@gmail.com" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="juanp@gmail.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="2129478" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="multipart/form-data; boundary=---------------------------257822738013884" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/listing/listingupdate" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\BeYourMarket.Web\listing\listingupdate" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="57688" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="POST" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/listing/listingupdate" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="54476" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/listing/listingupdate" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_CONTENT_LENGTH">
+      <value string="2129478" />
+    </item>
+    <item name="HTTP_CONTENT_TYPE">
+      <value string="multipart/form-data; boundary=---------------------------257822738013884" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=Wk48wotDZJFJ_pPevQMOSyYuuQu20z_8akqMjq3xv3GnswLHpnnod-OuUb4ldM-aDeQQb6_zQ7Xy89biH9p4fJzbHBbDm2g1NM-r-PyzUVo1; .AspNet.ApplicationCookie=A-fQxzLQCy4q946LpzcjahZAY4cLR2-W2RevnGeD_6tH2JtGCN4TxdjvpmFSGNfR-3qsZGqxtsH7_y_UEEo40ZYOJvoc5pwNyMIptG6CmmY7MgB5m0tJPakvXEUC8YCHg7hDj0qKJn6baQX90X2o8rZ_zm0LjzsdXlfK3fVIAc5J_BgqMR-fundphQvL2Aoe3NWn4mGBasgFo-2XIxW1kRP6_qR2AMtFUnOS-myqn0HdLSn_IflIaXUP9NjFH15IU73DEVOurS9FK-Jct3-B-iEzgS1kXcXMlyr4ho4yOp7DCAyZQDpjf3vv3rk4oHsk6rYft2UhjTYfg3SlsKu05t_m2HuaQ4gBJ3v5w388YbWk8c_exciQIiLGDDKwV66Yj3wtHQKCJu6THqcPBGoDbFWqd4Xw7BcE_Lkh5crFfDgg2EV4_jB1tdrHC6VopsnTLYlqyRoFfpTOztEl1r9LYsI_PzCLTo4sDntofN7eQu8TwLvWpRyC_PyHQUQ78jraoXQlkgln8vVmRT4XM68kfw" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:54476" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:54476/es/listing/listingupdate" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <form>
+    <item name="ListingItem.ID">
+      <value string="0" />
+    </item>
+    <item name="CategoryID">
+      <value string="5" />
+    </item>
+    <item name="Title">
+      <value string="asdas" />
+    </item>
+    <item name="Description">
+      <value string="adsa" />
+    </item>
+    <item name="Active">
+      <value string="true" />
+      <value string="false" />
+    </item>
+    <item name="Location">
+      <value string="hgfhgf" />
+    </item>
+    <item name="Longitude">
+      <value string="" />
+    </item>
+    <item name="Latitude">
+      <value string="" />
+    </item>
+    <item name="ContactName">
+      <value string="Juan Pere" />
+    </item>
+    <item name="ContactEmail">
+      <value string="juanp@gmail.com" />
+    </item>
+  </form>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="Wk48wotDZJFJ_pPevQMOSyYuuQu20z_8akqMjq3xv3GnswLHpnnod-OuUb4ldM-aDeQQb6_zQ7Xy89biH9p4fJzbHBbDm2g1NM-r-PyzUVo1" />
+    </item>
+    <item name=".AspNet.ApplicationCookie">
+      <value string="A-fQxzLQCy4q946LpzcjahZAY4cLR2-W2RevnGeD_6tH2JtGCN4TxdjvpmFSGNfR-3qsZGqxtsH7_y_UEEo40ZYOJvoc5pwNyMIptG6CmmY7MgB5m0tJPakvXEUC8YCHg7hDj0qKJn6baQX90X2o8rZ_zm0LjzsdXlfK3fVIAc5J_BgqMR-fundphQvL2Aoe3NWn4mGBasgFo-2XIxW1kRP6_qR2AMtFUnOS-myqn0HdLSn_IflIaXUP9NjFH15IU73DEVOurS9FK-Jct3-B-iEzgS1kXcXMlyr4ho4yOp7DCAyZQDpjf3vv3rk4oHsk6rYft2UhjTYfg3SlsKu05t_m2HuaQ4gBJ3v5w388YbWk8c_exciQIiLGDDKwV66Yj3wtHQKCJu6THqcPBGoDbFWqd4Xw7BcE_Lkh5crFfDgg2EV4_jB1tdrHC6VopsnTLYlqyRoFfpTOztEl1r9LYsI_PzCLTo4sDntofN7eQu8TwLvWpRyC_PyHQUQ78jraoXQlkgln8vVmRT4XM68kfw" />
+    </item>
+  </cookies>
+</error>
