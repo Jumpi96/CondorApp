@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-02 19:19-03:00\n"
+"POT-Creation-Date: 2017-09-02 21:04-03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,7 @@ msgstr ""
 msgid "\", \"(((\").Replace(\""
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:269
+#: Views\Listing\Listing.cshtml:262
 #: Views\Listing\Profile.cshtml:26
 #: Views\Listing\Review.cshtml:36
 msgid "{0:N0} reviews"
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Button Label"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:130
+#: Views\Listing\ListingUpdate.cshtml:132
 #: Views\Listing\Review.cshtml:74
 #: Views\Payment\Orders.cshtml:26
 #: Views\Payment\Orders.cshtml:30
@@ -301,8 +301,8 @@ msgstr ""
 
 #: Views\Account\Register.cshtml:54
 #: Views\Account\Register.cshtml:55
-#: Views\Listing\ListingUpdate.cshtml:123
 #: Views\Listing\ListingUpdate.cshtml:124
+#: Views\Listing\ListingUpdate.cshtml:125
 #: Views\Manage\RegisterProducer.cshtml:66
 msgid "Confirm Password"
 msgstr ""
@@ -327,9 +327,9 @@ msgstr ""
 
 #: Views\Home\Contact.cshtml:4
 #: Views\Listing\Listing.cshtml:66
-#: Views\Listing\Listing.cshtml:236
-#: Views\Listing\Listing.cshtml:239
-#: Views\Listing\Listing.cshtml:273
+#: Views\Listing\Listing.cshtml:229
+#: Views\Listing\Listing.cshtml:232
+#: Views\Listing\Listing.cshtml:266
 #: Views\Listing\_ListingContactModal.cshtml:8
 msgid "Contact"
 msgstr ""
@@ -342,8 +342,8 @@ msgstr ""
 msgid "Contact Name"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:230
-#: Views\Listing\Listing.cshtml:230
+#: Views\Listing\Listing.cshtml:223
+#: Views\Listing\Listing.cshtml:223
 #: Views\Listing\_ListingContactModal.cshtml:17
 msgid "Contact number (Click to show)"
 msgstr ""
@@ -469,7 +469,7 @@ msgstr ""
 msgid "Date Format"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:175
+#: Views\Listing\Listing.cshtml:167
 msgid "Date Posted"
 msgstr ""
 
@@ -572,7 +572,7 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:113
+#: Views\Listing\ListingUpdate.cshtml:114
 #: Areas\Admin\Views\Manage\SettingsEmail.cshtml:18
 msgid "Email Address"
 msgstr ""
@@ -634,7 +634,7 @@ msgstr ""
 msgid "Enter Email"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:114
+#: Views\Listing\ListingUpdate.cshtml:115
 msgid "Enter Email Address"
 msgstr ""
 
@@ -643,7 +643,7 @@ msgstr ""
 msgid "Enter Location"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:106
+#: Views\Listing\ListingUpdate.cshtml:107
 msgid "Enter Phone Number"
 msgstr ""
 
@@ -676,7 +676,7 @@ msgstr ""
 msgid "Enter your email."
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:102
+#: Views\Listing\ListingUpdate.cshtml:103
 msgid "Enter Your Full Name"
 msgstr ""
 
@@ -753,7 +753,7 @@ msgstr ""
 msgid "Frontend"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:101
+#: Views\Listing\ListingUpdate.cshtml:102
 msgid "Full Name"
 msgstr ""
 
@@ -864,7 +864,7 @@ msgstr ""
 msgid "Join"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:264
+#: Views\Listing\Listing.cshtml:257
 #: Views\Listing\Profile.cshtml:29
 #: Views\Listing\Review.cshtml:33
 msgid "Joined since"
@@ -914,7 +914,7 @@ msgstr ""
 msgid "Listing Details"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:183
+#: Views\Listing\Listing.cshtml:175
 msgid "Listing ID"
 msgstr ""
 
@@ -926,7 +926,6 @@ msgstr ""
 msgid "Listing review is not allowed!"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:159
 #: Views\Listing\Listings.cshtml:55
 #: Views\Shared\_ListingTypes.cshtml:6
 #: Areas\Admin\Views\Listing\CategoryUpdate.cshtml:44
@@ -972,7 +971,7 @@ msgstr ""
 msgid "Listings by category"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:167
+#: Views\Listing\Listing.cshtml:159
 #: Views\Listing\Listings.cshtml:70
 #: Views\Listing\Listings.cshtml:71
 #: Views\Listing\ListingUpdate.cshtml:83
@@ -1060,7 +1059,7 @@ msgstr ""
 msgid "Manage Users"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:216
+#: Views\Listing\Listing.cshtml:208
 msgid "Map"
 msgstr ""
 
@@ -1234,8 +1233,8 @@ msgstr ""
 #: Views\Account\Login.cshtml:28
 #: Views\Account\Register.cshtml:50
 #: Views\Account\Register.cshtml:51
-#: Views\Listing\ListingUpdate.cshtml:119
 #: Views\Listing\ListingUpdate.cshtml:120
+#: Views\Listing\ListingUpdate.cshtml:121
 #: Views\Manage\Index.cshtml:13
 #: Views\Manage\RegisterProducer.cshtml:60
 #: Areas\Admin\Views\Install\Index.cshtml:32
@@ -1281,7 +1280,7 @@ msgid "Pending"
 msgstr ""
 
 #: Models\ManageViewModels.cs:65
-#: Views\Listing\ListingUpdate.cshtml:105
+#: Views\Listing\ListingUpdate.cshtml:106
 #: Views\Manage\AddPhoneNumber.cshtml:3
 #: Views\Manage\RegisterProducer.cshtml:72
 #: Views\Manage\UserProfile.cshtml:56
@@ -1392,12 +1391,12 @@ msgstr ""
 msgid "Publish a listing (it's 100% free)"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:129
+#: Views\Listing\ListingUpdate.cshtml:131
 msgid "Publish Listing"
 msgstr ""
 
 #: Views\Manage\Dashboard.cshtml:28
-#: Views\Shared\_Layout.cshtml:75
+#: Views\Shared\_Layout.cshtml:76
 #: Views\Shared\_LoginPartial.cshtml:65
 #: Views\Shared\_NavigationSide.cshtml:70
 #: Views\Shared\_NavigationSide.cshtml:84
@@ -1409,7 +1408,7 @@ msgstr ""
 msgid "Published"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:99
+#: Views\Listing\ListingUpdate.cshtml:100
 msgid "Publisher's Info"
 msgstr ""
 
@@ -1519,7 +1518,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: Views\Shared\_Layout.cshtml:62
+#: Views\Shared\_Layout.cshtml:63
 msgid "Search for..."
 msgstr ""
 
@@ -1589,7 +1588,7 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:278
+#: Views\Listing\Listing.cshtml:271
 msgid "Share"
 msgstr ""
 
@@ -1603,7 +1602,7 @@ msgstr ""
 msgid "Show Email"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:109
+#: Views\Listing\ListingUpdate.cshtml:110
 msgid "Show Phone"
 msgstr ""
 
@@ -1950,12 +1949,12 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:231
+#: Views\Listing\Listing.cshtml:224
 #: Views\Listing\_ListingContactModal.cshtml:18
 msgid "View User's other listings"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:267
+#: Views\Listing\Listing.cshtml:260
 msgid "View user's profile and other listings"
 msgstr ""
 
@@ -1963,7 +1962,7 @@ msgstr ""
 msgid "View Your Profile"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:191
+#: Views\Listing\Listing.cshtml:183
 msgid "Views"
 msgstr ""
 

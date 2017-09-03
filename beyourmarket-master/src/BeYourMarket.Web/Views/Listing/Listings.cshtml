@@ -70,7 +70,7 @@
                                     <label>[[[Location]]]</label>
                                     <input type="text" class="form-control" placeholder="[[[Location]]]" id="Location" name="Location" value="@Model.Location">
                                 </div>
-
+                                <!--
                                 <div class="form-group">
                                     <label>[[[Price]]]</label>
                                     <div class="row">
@@ -78,15 +78,15 @@
                                         <div class="col-xs-6 range-to"><input type="number" class="form-control" placeholder="[[[To]]]" id="PriceTo" name="PriceTo" value="@Model.PriceTo"></div>
                                     </div>
                                 </div>
-
+                                -->
                                 <div class="form-group">
                                     <label>[[[Search Text]]]</label>
                                     <input type="search" class="form-control" placeholder="[[[Search text]]]" id="SearchText" name="SearchText" value="@Model.SearchText">
                                 </div>
-
+                                <!--
                                 <input type="checkbox" id="PhotoOnly" name="PhotoOnly" value="true" @( Model.PhotoOnly ? "checked" : "") />
                                 <label for="PhotoOnly">[[[Only show listings with photos]]]</label>
-
+                                    -->
                                 @Html.HiddenFor(x => x.SortView)
                             </fieldset>
 

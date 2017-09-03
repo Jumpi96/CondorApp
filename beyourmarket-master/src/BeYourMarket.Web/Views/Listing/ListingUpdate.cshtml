@@ -48,7 +48,7 @@
                                     <label>[[[Description]]] <span class="text-red">*</span></label>
                                     <textarea class="form-control" rows="5" placeholder="[[[Description...]]]" id="Description" name="Description" required>@Model.ListingItem.Description</textarea>
                                 </div>
-
+                                <!--
                                 @if (Model.ListingTypes.FirstOrDefault().PriceEnabled)
                                 {
                                     <div class="form-group" id="priceGroup">
@@ -59,8 +59,8 @@
                                         </div>
                                     </div>
                                 }
-
-                                <div class="form-group">
+                                --> 
+                                <div class="form-group" >
                                     <input type="checkbox" id="Active" name="Active" value="true" @(Model.ListingItem.Active ? "checked" : "") /> <label for="Active">[[[Active]]]</label>
                                     <input name="Active" type="hidden" value="false" />
                                 </div>
@@ -88,13 +88,14 @@
 
                                 <input type="hidden" id="Longitude" name="Longitude" value="@Model.ListingItem.Longitude" />
                                 <input type="hidden" id="Latitude" name="Latitude" value="@Model.ListingItem.Latitude" />
-
+                                <!--
                                 <div class="form-group">
                                     <div id="map-canvas"></div>
                                 </div>
+                                 -->
 
                             </fieldset>
-
+                            <!--
                             <fieldset>
                                 <legend>[[[Publisher's Info]]]</legend>
                                 <div class="form-group">
@@ -125,6 +126,7 @@
                                     </div>
                                 }
                             </fieldset>
+                                -->
                             <fieldset>
                                 <button class="btn btn-primary" type="submit"><i class="fa fa-save"></i> [[[Publish Listing]]]</button>
                                 <a class="btn btn-default" href="@Url.Action("Dashboard", "Manage")"><i class="fa fa-remove"></i> [[[Cancel]]]</a>

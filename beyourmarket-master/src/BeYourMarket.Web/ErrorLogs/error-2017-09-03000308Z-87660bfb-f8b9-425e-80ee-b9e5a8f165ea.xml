@@ -1,0 +1,201 @@
+﻿<error errorId="87660bfb-f8b9-425e-80ee-b9e5a8f165ea" host="DESKTOP-2BQ04QL" type="System.Data.Entity.Validation.DbEntityValidationException" message="Validation failed for one or more entities. See 'EntityValidationErrors' property for more details." source="EntityFramework" detail="System.Data.Entity.Validation.DbEntityValidationException: Entity Validation Failed - errors follow:&#xA;BeYourMarket.Model.Models.Listing failed validation&#xA;- ContactName : El campo ContactName es obligatorio.&#xD;&#xA;- ContactEmail : El campo ContactEmail es obligatorio.&#xD;&#xA; ---&gt; System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.&#xD;&#xA;   en System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)&#xD;&#xA;   en System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)&#xD;&#xA;   en System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)&#xD;&#xA;   en Repository.Pattern.Ef6.DataContext.&lt;&gt;n__0(CancellationToken cancellationToken)&#xD;&#xA;   en Repository.Pattern.Ef6.DataContext.&lt;SaveChangesAsync&gt;d__10.MoveNext() en C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Frameworks\Repository.Pattern.Ef6\DataContext.cs:línea 131&#xD;&#xA;   --- Fin del seguimiento de la pila de la excepción interna ---&#xD;&#xA;   en Repository.Pattern.Ef6.DataContext.&lt;SaveChangesAsync&gt;d__10.MoveNext() en C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Frameworks\Repository.Pattern.Ef6\DataContext.cs:línea 151&#xD;&#xA;--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()&#xD;&#xA;   en Repository.Pattern.Ef6.DataContext.&lt;SaveChangesAsync&gt;d__9.MoveNext() en C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Frameworks\Repository.Pattern.Ef6\DataContext.cs:línea 100&#xD;&#xA;--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()&#xD;&#xA;   en BeYourMarket.Web.Controllers.ListingController.&lt;ListingUpdate&gt;d__36.MoveNext() en C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\BeYourMarket.Web\Controllers\ListingController.cs:línea 536&#xD;&#xA;--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)&#xD;&#xA;   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#xD;&#xA;   en System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass37.&lt;BeginInvokeAsynchronousActionMethod&gt;b__36(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3d()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.&lt;&gt;c__DisplayClass46.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3f()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass33.&lt;BeginInvokeActionMethodWithFilters&gt;b__32(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c()&#xD;&#xA;   en System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult)" user="juanp@gmail.com" time="2017-09-03T00:03:08.8194314Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_CONTENT_LENGTH:1110&#xD;&#xA;HTTP_CONTENT_TYPE:multipart/form-data; boundary=---------------------------11983135430788&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=fHOadJqBQU81jmLxSYpwbEBlFSp2aekOWto73C3pUn8ssG711vkpD2dwSAK6tDfVGPov1uDr1_tgQytQvqF_ZqgWo-VXrtE8W6qaEIQJ3f01; .AspNet.ApplicationCookie=vfwiWJuDFSJA1bLqza_IeQlDXS5GK7yMJkq2gXfinKdZEF1Wi3VGgdN9e46_gSUwK0z7EPQBIRT1kjS1-UdDqNzhAhPVfvv3qJoE1ZbliEHGmHNc49lymoKN6ywaeyRRkvaJJHnsfnQ3a5Js7N4HDSaUXMQCOFYKbih97Aea3uszi77nbT1LsfUefsUBtaKYO5vuOQqbcT8uNsOd0NJK6rfBH6y5OJpxFaIeQ6fx633_UUXXaiMTyZtqTaGpVwH7j6jibxOn-8EX6Saire-4uC4hld2NBKrppTtSgiJ-JMzU6VPVktJVkszFHc3mIJz0R6_4GKO9xclvJfJdy-Lh9AYWKBCb_GSQ-gmHfc8HZjoM-SNNpuDRHD5YRaO3WOE1Kv9J7ZN2QB8p9esJs_Uf7irdLI4T-MSPj8bA-uLKygbnnxkQ9F6jrRF9reTWVKH3kZ0QJmPG0-qpQ5j4qpO0-vHu-aNqGF18VJFftSG54BCwdudlR_Z2XtcwIlfLodSRkWMP5X-oItnhy2Zq2GCWgg&#xD;&#xA;HTTP_HOST:localhost:54476&#xD;&#xA;HTTP_REFERER:http://localhost:54476/es/listing/listingupdate&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0&#xD;&#xA;HTTP_UPGRADE_INSECURE_REQUESTS:1&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Content-Length: 1110&#xD;&#xA;Content-Type: multipart/form-data; boundary=---------------------------11983135430788&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3&#xD;&#xA;Cookie: __RequestVerificationToken=fHOadJqBQU81jmLxSYpwbEBlFSp2aekOWto73C3pUn8ssG711vkpD2dwSAK6tDfVGPov1uDr1_tgQytQvqF_ZqgWo-VXrtE8W6qaEIQJ3f01; .AspNet.ApplicationCookie=vfwiWJuDFSJA1bLqza_IeQlDXS5GK7yMJkq2gXfinKdZEF1Wi3VGgdN9e46_gSUwK0z7EPQBIRT1kjS1-UdDqNzhAhPVfvv3qJoE1ZbliEHGmHNc49lymoKN6ywaeyRRkvaJJHnsfnQ3a5Js7N4HDSaUXMQCOFYKbih97Aea3uszi77nbT1LsfUefsUBtaKYO5vuOQqbcT8uNsOd0NJK6rfBH6y5OJpxFaIeQ6fx633_UUXXaiMTyZtqTaGpVwH7j6jibxOn-8EX6Saire-4uC4hld2NBKrppTtSgiJ-JMzU6VPVktJVkszFHc3mIJz0R6_4GKO9xclvJfJdy-Lh9AYWKBCb_GSQ-gmHfc8HZjoM-SNNpuDRHD5YRaO3WOE1Kv9J7ZN2QB8p9esJs_Uf7irdLI4T-MSPj8bA-uLKygbnnxkQ9F6jrRF9reTWVKH3kZ0QJmPG0-qpQ5j4qpO0-vHu-aNqGF18VJFftSG54BCwdudlR_Z2XtcwIlfLodSRkWMP5X-oItnhy2Zq2GCWgg&#xD;&#xA;Host: localhost:54476&#xD;&#xA;Referer: http://localhost:54476/es/listing/listingupdate&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0&#xD;&#xA;Upgrade-Insecure-Requests: 1&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\BeYourMarket.Web\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="ApplicationCookie" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="juanp@gmail.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="juanp@gmail.com" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="juanp@gmail.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="1110" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="multipart/form-data; boundary=---------------------------11983135430788" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/listing/listingupdate" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\BeYourMarket.Web\listing\listingupdate" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="127.0.0.1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="63834" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="POST" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/listing/listingupdate" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="54476" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/listing/listingupdate" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_CONTENT_LENGTH">
+      <value string="1110" />
+    </item>
+    <item name="HTTP_CONTENT_TYPE">
+      <value string="multipart/form-data; boundary=---------------------------11983135430788" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=fHOadJqBQU81jmLxSYpwbEBlFSp2aekOWto73C3pUn8ssG711vkpD2dwSAK6tDfVGPov1uDr1_tgQytQvqF_ZqgWo-VXrtE8W6qaEIQJ3f01; .AspNet.ApplicationCookie=vfwiWJuDFSJA1bLqza_IeQlDXS5GK7yMJkq2gXfinKdZEF1Wi3VGgdN9e46_gSUwK0z7EPQBIRT1kjS1-UdDqNzhAhPVfvv3qJoE1ZbliEHGmHNc49lymoKN6ywaeyRRkvaJJHnsfnQ3a5Js7N4HDSaUXMQCOFYKbih97Aea3uszi77nbT1LsfUefsUBtaKYO5vuOQqbcT8uNsOd0NJK6rfBH6y5OJpxFaIeQ6fx633_UUXXaiMTyZtqTaGpVwH7j6jibxOn-8EX6Saire-4uC4hld2NBKrppTtSgiJ-JMzU6VPVktJVkszFHc3mIJz0R6_4GKO9xclvJfJdy-Lh9AYWKBCb_GSQ-gmHfc8HZjoM-SNNpuDRHD5YRaO3WOE1Kv9J7ZN2QB8p9esJs_Uf7irdLI4T-MSPj8bA-uLKygbnnxkQ9F6jrRF9reTWVKH3kZ0QJmPG0-qpQ5j4qpO0-vHu-aNqGF18VJFftSG54BCwdudlR_Z2XtcwIlfLodSRkWMP5X-oItnhy2Zq2GCWgg" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:54476" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:54476/es/listing/listingupdate" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0" />
+    </item>
+    <item name="HTTP_UPGRADE_INSECURE_REQUESTS">
+      <value string="1" />
+    </item>
+  </serverVariables>
+  <form>
+    <item name="ListingItem.ID">
+      <value string="0" />
+    </item>
+    <item name="CategoryID">
+      <value string="1" />
+    </item>
+    <item name="Title">
+      <value string="fdfdf" />
+    </item>
+    <item name="Description">
+      <value string="sdfsdf" />
+    </item>
+    <item name="Active">
+      <value string="true" />
+      <value string="false" />
+    </item>
+    <item name="Location">
+      <value string="ddsfsf" />
+    </item>
+    <item name="Longitude">
+      <value string="" />
+    </item>
+    <item name="Latitude">
+      <value string="" />
+    </item>
+  </form>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="fHOadJqBQU81jmLxSYpwbEBlFSp2aekOWto73C3pUn8ssG711vkpD2dwSAK6tDfVGPov1uDr1_tgQytQvqF_ZqgWo-VXrtE8W6qaEIQJ3f01" />
+    </item>
+    <item name=".AspNet.ApplicationCookie">
+      <value string="vfwiWJuDFSJA1bLqza_IeQlDXS5GK7yMJkq2gXfinKdZEF1Wi3VGgdN9e46_gSUwK0z7EPQBIRT1kjS1-UdDqNzhAhPVfvv3qJoE1ZbliEHGmHNc49lymoKN6ywaeyRRkvaJJHnsfnQ3a5Js7N4HDSaUXMQCOFYKbih97Aea3uszi77nbT1LsfUefsUBtaKYO5vuOQqbcT8uNsOd0NJK6rfBH6y5OJpxFaIeQ6fx633_UUXXaiMTyZtqTaGpVwH7j6jibxOn-8EX6Saire-4uC4hld2NBKrppTtSgiJ-JMzU6VPVktJVkszFHc3mIJz0R6_4GKO9xclvJfJdy-Lh9AYWKBCb_GSQ-gmHfc8HZjoM-SNNpuDRHD5YRaO3WOE1Kv9J7ZN2QB8p9esJs_Uf7irdLI4T-MSPj8bA-uLKygbnnxkQ9F6jrRF9reTWVKH3kZ0QJmPG0-qpQ5j4qpO0-vHu-aNqGF18VJFftSG54BCwdudlR_Z2XtcwIlfLodSRkWMP5X-oItnhy2Zq2GCWgg" />
+    </item>
+  </cookies>
+</error>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-02 17:01-03:00\n"
-"PO-Revision-Date: 2017-09-02 17:01-03:00\n"
+"POT-Creation-Date: 2017-09-02 21:04-03:00\n"
+"PO-Revision-Date: 2017-09-02 21:04-03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,8 +12,8 @@ msgstr ""
 msgid "\", \"(((\").Replace(\""
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:268
-#: Views\Listing\Profile.cshtml:25
+#: Views\Listing\Listing.cshtml:262
+#: Views\Listing\Profile.cshtml:26
 #: Views\Listing\Review.cshtml:36
 msgid "{0:N0} reviews"
 msgstr "{0:N0} opiniones"
@@ -51,7 +51,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\Listings.cshtml:67
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:133
 msgid "Active"
-msgstr ""
+msgstr "Activo"
 
 #: Views\Manage\AddPhoneNumber.cshtml:11
 msgid "Add a phone number"
@@ -74,7 +74,7 @@ msgstr ""
 msgid "Add new page"
 msgstr ""
 
-#: Views\Shared\_DashBoardSide.cshtml:29
+#: Views\Shared\_DashBoardSide.cshtml:24
 msgid "Admin"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgstr ""
 msgid "Button Label"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:130
+#: Views\Listing\ListingUpdate.cshtml:132
 #: Views\Listing\Review.cshtml:74
 #: Views\Payment\Orders.cshtml:26
 #: Views\Payment\Orders.cshtml:30
@@ -225,7 +225,7 @@ msgstr "Categorias"
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:31
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:67
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #: Areas\Admin\Views\Listing\Categories.cshtml:121
 msgid "Category is deleted."
@@ -233,7 +233,7 @@ msgstr ""
 
 #: Views\Manage\ChangePassword.cshtml:3
 #: Views\Manage\ChangePassword.cshtml:47
-#: Views\Shared\_DashBoardSide.cshtml:24
+#: Views\Shared\_DashBoardSide.cshtml:19
 msgid "Change Password"
 msgstr "Cambiar contraseña"
 
@@ -296,15 +296,15 @@ msgstr "Confirme la nueva contraseña"
 
 #: Models\AccountViewModels.cs:79
 #: Models\AccountViewModels.cs:104
-#: Models\AccountViewModels.cs:129
+#: Models\AccountViewModels.cs:131
 msgid "Confirm password"
 msgstr "confirme contraseña"
 
 #: Views\Account\Register.cshtml:54
 #: Views\Account\Register.cshtml:55
-#: Views\Listing\ListingUpdate.cshtml:123
 #: Views\Listing\ListingUpdate.cshtml:124
-#: Views\Manage\RegisterProducer.cshtml:60
+#: Views\Listing\ListingUpdate.cshtml:125
+#: Views\Manage\RegisterProducer.cshtml:66
 msgid "Confirm Password"
 msgstr "confirme contraseña"
 
@@ -328,9 +328,9 @@ msgstr ""
 
 #: Views\Home\Contact.cshtml:4
 #: Views\Listing\Listing.cshtml:66
-#: Views\Listing\Listing.cshtml:236
-#: Views\Listing\Listing.cshtml:239
-#: Views\Listing\Listing.cshtml:272
+#: Views\Listing\Listing.cshtml:229
+#: Views\Listing\Listing.cshtml:232
+#: Views\Listing\Listing.cshtml:266
 #: Views\Listing\_ListingContactModal.cshtml:8
 msgid "Contact"
 msgstr "Contacto"
@@ -343,8 +343,8 @@ msgstr "Correo de contacto"
 msgid "Contact Name"
 msgstr "Nombre de Contacto"
 
-#: Views\Listing\Listing.cshtml:230
-#: Views\Listing\Listing.cshtml:230
+#: Views\Listing\Listing.cshtml:223
+#: Views\Listing\Listing.cshtml:223
 #: Views\Listing\_ListingContactModal.cshtml:17
 msgid "Contact number (Click to show)"
 msgstr "Número de contacto (Hacer click para mostrar)"
@@ -380,7 +380,7 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: Views\Shared\_DashBoardSide.cshtml:30
+#: Views\Shared\_DashBoardSide.cshtml:25
 msgid "Create a producer account"
 msgstr ""
 
@@ -388,7 +388,7 @@ msgstr ""
 #: Views\Shared\_LoginPartial.cshtml:85
 #: Views\Shared\_NavigationSide.cshtml:65
 msgid "Create an account"
-msgstr ""
+msgstr "Crear una cuenta"
 
 #: Areas\Admin\Views\Install\Index.cshtml:39
 msgid "Create Sample Data"
@@ -402,7 +402,7 @@ msgstr ""
 #: Areas\Admin\Views\Manage\EmailTemplates.cshtml:39
 #: Areas\Admin\Views\Payment\Order.cshtml:112
 msgid "Created"
-msgstr ""
+msgstr "Publicado"
 
 #: Areas\Admin\Views\Design\CodeStyle.cshtml:10
 #: Areas\Admin\Views\Design\CodeStyle.cshtml:20
@@ -470,7 +470,7 @@ msgstr ""
 msgid "Date Format"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:175
+#: Views\Listing\Listing.cshtml:167
 msgid "Date Posted"
 msgstr "Fecha de publicación"
 
@@ -497,6 +497,7 @@ msgstr ""
 #: Views\Listing\Listing.cshtml:55
 #: Views\Listing\ListingUpdate.cshtml:48
 #: Views\Listing\_ListingGridList.cshtml:40
+#: Views\Manage\RegisterProducer.cshtml:54
 #: Views\Payment\Orders.cshtml:128
 #: Areas\Admin\Views\ContentPage\ContentPages.cshtml:46
 #: Areas\Admin\Views\ContentPage\ContentPageUpdate.cshtml:37
@@ -561,8 +562,8 @@ msgstr ""
 #: Models\AccountViewModels.cs:52
 #: Models\AccountViewModels.cs:69
 #: Models\AccountViewModels.cs:94
-#: Models\AccountViewModels.cs:119
-#: Models\AccountViewModels.cs:140
+#: Models\AccountViewModels.cs:121
+#: Models\AccountViewModels.cs:142
 #: Views\Account\Register.cshtml:46
 #: Views\Manage\RegisterProducer.cshtml:36
 #: Areas\Admin\Views\Manage\Settings.cshtml:49
@@ -572,7 +573,7 @@ msgstr ""
 msgid "Email"
 msgstr "correo"
 
-#: Views\Listing\ListingUpdate.cshtml:113
+#: Views\Listing\ListingUpdate.cshtml:114
 #: Areas\Admin\Views\Manage\SettingsEmail.cshtml:18
 msgid "Email Address"
 msgstr "Dirección de correo"
@@ -634,7 +635,7 @@ msgstr "Ingresar correo"
 msgid "Enter Email"
 msgstr "Ingresar correo"
 
-#: Views\Listing\ListingUpdate.cshtml:114
+#: Views\Listing\ListingUpdate.cshtml:115
 msgid "Enter Email Address"
 msgstr "Ingresar dirección de correo"
 
@@ -643,13 +644,13 @@ msgstr "Ingresar dirección de correo"
 msgid "Enter Location"
 msgstr "Ingresar Ubicación"
 
-#: Views\Listing\ListingUpdate.cshtml:106
+#: Views\Listing\ListingUpdate.cshtml:107
 msgid "Enter Phone Number"
 msgstr ""
 
 #: Views\Listing\ListingUpdate.cshtml:44
 msgid "Enter Title"
-msgstr ""
+msgstr "Ingrese título"
 
 #: Views\Account\VerifyCode.cshtml:12
 #: Views\Manage\VerifyPhoneNumber.cshtml:12
@@ -676,7 +677,7 @@ msgstr ""
 msgid "Enter your email."
 msgstr "Ingrese su correo"
 
-#: Views\Listing\ListingUpdate.cshtml:102
+#: Views\Listing\ListingUpdate.cshtml:103
 msgid "Enter Your Full Name"
 msgstr ""
 
@@ -735,7 +736,7 @@ msgstr "Confirma haber olvidado su contraseña"
 #: Views\Account\ForgotPassword.cshtml:3
 #: Views\Account\Login.cshtml:41
 msgid "Forgot your password?"
-msgstr "¡olvidó su contraseña"
+msgstr "¿Olvidó su contraseña?"
 
 #: Controllers\PaymentController.cs:322
 #: Views\Listing\Listings.cshtml:77
@@ -753,7 +754,7 @@ msgstr ""
 msgid "Frontend"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:101
+#: Views\Listing\ListingUpdate.cshtml:102
 msgid "Full Name"
 msgstr ""
 
@@ -802,7 +803,7 @@ msgid "Here you can view all the transactions. Transactions is supported only wh
 msgstr ""
 
 #: Controllers\AccountController.cs:247
-#: Controllers\ManageController.cs:693
+#: Controllers\ManageController.cs:694
 msgid "Hi, Welcome to {0}! I am happy to assist you if you has any questions."
 msgstr ""
 
@@ -812,6 +813,10 @@ msgstr ""
 
 #: Views\Account\Register.cshtml:61
 msgid "I accept the"
+msgstr ""
+
+#: Views\Manage\RegisterProducer.cshtml:62
+msgid "I am… / We are..."
 msgstr ""
 
 #: Areas\Admin\Views\Install\Index.cshtml:89
@@ -860,8 +865,8 @@ msgstr ""
 msgid "Join"
 msgstr "unite"
 
-#: Views\Listing\Listing.cshtml:263
-#: Views\Listing\Profile.cshtml:28
+#: Views\Listing\Listing.cshtml:257
+#: Views\Listing\Profile.cshtml:29
 #: Views\Listing\Review.cshtml:33
 msgid "Joined since"
 msgstr "Miembro desde"
@@ -900,7 +905,7 @@ msgstr ""
 
 #: Views\Account\Login.cshtml:34
 msgid "Let me in"
-msgstr ""
+msgstr "Ingresar"
 
 #: Views\Listing\Listings.cshtml:109
 msgid "List"
@@ -910,7 +915,7 @@ msgstr ""
 msgid "Listing Details"
 msgstr "Detalles de la publicación"
 
-#: Views\Listing\Listing.cshtml:183
+#: Views\Listing\Listing.cshtml:175
 msgid "Listing ID"
 msgstr "ID de publicación"
 
@@ -922,7 +927,6 @@ msgstr "Publicación actualizada"
 msgid "Listing review is not allowed!"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:159
 #: Views\Listing\Listings.cshtml:55
 #: Views\Shared\_ListingTypes.cshtml:6
 #: Areas\Admin\Views\Listing\CategoryUpdate.cshtml:44
@@ -953,7 +957,7 @@ msgstr "Actualización de publicación"
 
 #: Views\Listing\Listings.cshtml:9
 #: Views\Listing\Listings.cshtml:116
-#: Views\Listing\Profile.cshtml:43
+#: Views\Listing\Profile.cshtml:44
 #: Views\Shared\_DashBoardSide.cshtml:13
 #: Areas\Admin\Views\Listing\CustomFields.cshtml:10
 #: Areas\Admin\Views\Listing\Listings.cshtml:10
@@ -968,7 +972,7 @@ msgstr "Publicaciones"
 msgid "Listings by category"
 msgstr "Publicaciones por categorías"
 
-#: Views\Listing\Listing.cshtml:167
+#: Views\Listing\Listing.cshtml:159
 #: Views\Listing\Listings.cshtml:70
 #: Views\Listing\Listings.cshtml:71
 #: Views\Listing\ListingUpdate.cshtml:83
@@ -1056,7 +1060,7 @@ msgstr ""
 msgid "Manage Users"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:216
+#: Views\Listing\Listing.cshtml:208
 msgid "Map"
 msgstr "Mapa"
 
@@ -1197,7 +1201,6 @@ msgstr ""
 #: Views\Payment\Orders.cshtml:7
 #: Views\Payment\Orders.cshtml:87
 #: Views\Payment\Orders.cshtml:95
-#: Views\Shared\_DashBoardSide.cshtml:18
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:27
 #: Areas\Admin\Views\Payment\Order.cshtml:7
 #: Areas\Admin\Views\Payment\Order.cshtml:65
@@ -1216,7 +1219,7 @@ msgstr "Página {0} de {1}"
 
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:136
 msgid "Pages"
-msgstr "Página"
+msgstr "Páginas"
 
 #: C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Plugins\Plugin.Payment.Stripe\Views\Transaction.cshtml:21
 #: Plugins\Plugin.Payment.Stripe\Views\Transaction.cshtml:21
@@ -1227,14 +1230,14 @@ msgstr ""
 #: Models\AccountViewModels.cs:58
 #: Models\AccountViewModels.cs:75
 #: Models\AccountViewModels.cs:100
-#: Models\AccountViewModels.cs:125
+#: Models\AccountViewModels.cs:127
 #: Views\Account\Login.cshtml:28
 #: Views\Account\Register.cshtml:50
 #: Views\Account\Register.cshtml:51
-#: Views\Listing\ListingUpdate.cshtml:119
 #: Views\Listing\ListingUpdate.cshtml:120
+#: Views\Listing\ListingUpdate.cshtml:121
 #: Views\Manage\Index.cshtml:13
-#: Views\Manage\RegisterProducer.cshtml:54
+#: Views\Manage\RegisterProducer.cshtml:60
 #: Areas\Admin\Views\Install\Index.cshtml:32
 #: Areas\Admin\Views\Install\Index.cshtml:33
 #: Areas\Admin\Views\Install\Index.cshtml:82
@@ -1260,7 +1263,6 @@ msgstr ""
 msgid "Payment Settings"
 msgstr ""
 
-#: Views\Shared\_DashBoardSide.cshtml:20
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:117
 msgid "Payments"
 msgstr ""
@@ -1279,9 +1281,9 @@ msgid "Pending"
 msgstr ""
 
 #: Models\ManageViewModels.cs:65
-#: Views\Listing\ListingUpdate.cshtml:105
+#: Views\Listing\ListingUpdate.cshtml:106
 #: Views\Manage\AddPhoneNumber.cshtml:3
-#: Views\Manage\RegisterProducer.cshtml:66
+#: Views\Manage\RegisterProducer.cshtml:72
 #: Views\Manage\UserProfile.cshtml:56
 #: Areas\Admin\Views\Manage\Users.cshtml:41
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:73
@@ -1373,11 +1375,11 @@ msgstr ""
 #: Views\Manage\UserProfile.cshtml:3
 #: Views\Manage\UserProfile.cshtml:22
 #: Views\Manage\UserProfile.cshtml:29
-#: Views\Shared\_DashBoardSide.cshtml:23
+#: Views\Shared\_DashBoardSide.cshtml:18
 msgid "Profile"
 msgstr "Perfil"
 
-#: Views\Manage\RegisterProducer.cshtml:73
+#: Views\Manage\RegisterProducer.cshtml:79
 #: Views\Manage\UserProfile.cshtml:63
 msgid "Profile Picture"
 msgstr "Foto de perfil"
@@ -1390,12 +1392,12 @@ msgstr ""
 msgid "Publish a listing (it's 100% free)"
 msgstr "Realizar una publicación"
 
-#: Views\Listing\ListingUpdate.cshtml:129
+#: Views\Listing\ListingUpdate.cshtml:131
 msgid "Publish Listing"
 msgstr "Realizar una publicación"
 
 #: Views\Manage\Dashboard.cshtml:28
-#: Views\Shared\_Layout.cshtml:75
+#: Views\Shared\_Layout.cshtml:76
 #: Views\Shared\_LoginPartial.cshtml:65
 #: Views\Shared\_NavigationSide.cshtml:70
 #: Views\Shared\_NavigationSide.cshtml:84
@@ -1407,7 +1409,7 @@ msgstr "Realizar una nueva publicación"
 msgid "Published"
 msgstr "publicado"
 
-#: Views\Listing\ListingUpdate.cshtml:99
+#: Views\Listing\ListingUpdate.cshtml:100
 msgid "Publisher's Info"
 msgstr "Información del vendedor"
 
@@ -1422,7 +1424,7 @@ msgstr ""
 
 #: Views\Listing\Listings.cshtml:44
 msgid "Refine Search"
-msgstr ""
+msgstr "Filtros"
 
 #: Views\Account\Register.cshtml:3
 msgid "Register"
@@ -1442,11 +1444,11 @@ msgstr ""
 
 #: Views\Account\Login.cshtml:32
 msgid "Remeber me?"
-msgstr ""
+msgstr "Recordar usuario"
 
 #: Models\AccountViewModels.cs:61
 msgid "Remember me?"
-msgstr ""
+msgstr "Recordar usuario"
 
 #: Models\AccountViewModels.cs:36
 msgid "Remember this browser?"
@@ -1491,7 +1493,7 @@ msgstr "Opinión"
 msgid "Reviews"
 msgstr "Opiniones"
 
-#: Views\Manage\RegisterProducer.cshtml:80
+#: Views\Manage\RegisterProducer.cshtml:86
 #: Views\Manage\UserProfile.cshtml:70
 #: Areas\Admin\Views\ContentPage\ContentPageUpdate.cshtml:76
 #: Areas\Admin\Views\Design\Appearance.cshtml:44
@@ -1517,7 +1519,7 @@ msgstr "Guardar"
 msgid "Search"
 msgstr "buscar"
 
-#: Views\Shared\_Layout.cshtml:62
+#: Views\Shared\_Layout.cshtml:63
 msgid "Search for..."
 msgstr "Buscar..."
 
@@ -1548,7 +1550,7 @@ msgstr ""
 
 #: Views\Home\Index.cshtml:33
 msgid "See All Listings"
-msgstr ""
+msgstr "Ver todas"
 
 #: Views\Shared\_LoginPartial.cshtml:49
 msgid "See all messages"
@@ -1587,7 +1589,7 @@ msgstr ""
 msgid "Settings"
 msgstr "Configuración"
 
-#: Views\Listing\Listing.cshtml:277
+#: Views\Listing\Listing.cshtml:271
 msgid "Share"
 msgstr "Compartir"
 
@@ -1601,7 +1603,7 @@ msgstr ""
 msgid "Show Email"
 msgstr "mostrar correo"
 
-#: Views\Listing\ListingUpdate.cshtml:109
+#: Views\Listing\ListingUpdate.cshtml:110
 msgid "Show Phone"
 msgstr "Mostrar teléfono"
 
@@ -1703,7 +1705,7 @@ msgstr ""
 
 #: Models\AccountViewModels.cs:73
 #: Models\AccountViewModels.cs:98
-#: Models\AccountViewModels.cs:123
+#: Models\AccountViewModels.cs:125
 #: Models\ManageViewModels.cs:31
 #: Models\ManageViewModels.cs:50
 msgid "The {0} must be at least {2} characters long."
@@ -1736,7 +1738,7 @@ msgstr ""
 
 #: Models\AccountViewModels.cs:80
 #: Models\AccountViewModels.cs:105
-#: Models\AccountViewModels.cs:130
+#: Models\AccountViewModels.cs:132
 msgid "The password and confirmation password do not match."
 msgstr "La nueva contraseña y la confirmación no coinciden"
 
@@ -1776,7 +1778,7 @@ msgstr ""
 
 #: Views\Shared\_LoginPartial.cshtml:44
 msgid "There are no new messages"
-msgstr ""
+msgstr "No hay nuevos mensajes"
 
 #: Controllers\ListingController.cs:186
 #: Controllers\ListingController.cs:377
@@ -1822,7 +1824,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:42
 #: Areas\Admin\Views\Payment\Order.cshtml:99
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: Controllers\PaymentController.cs:322
 #: Views\Listing\Listings.cshtml:78
@@ -1857,7 +1859,6 @@ msgstr ""
 
 #: Views\Payment\Transaction.cshtml:5
 #: Views\Payment\Transaction.cshtml:20
-#: Views\Shared\_DashBoardSide.cshtml:19
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:37
 #: Areas\Admin\Views\Payment\Transaction.cshtml:2
 #: Areas\Admin\Views\Payment\Transaction.cshtml:14
@@ -1890,7 +1891,7 @@ msgstr ""
 #: Views\Listing\ListingUpdate.cshtml:74
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:159
 msgid "Upload Pictures"
-msgstr ""
+msgstr "Subir sus imágenes"
 
 #: Views\Account\_ExternalLoginsListPartial.cshtml:4
 msgid "Use another service to log in."
@@ -1949,12 +1950,12 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:231
+#: Views\Listing\Listing.cshtml:224
 #: Views\Listing\_ListingContactModal.cshtml:18
 msgid "View User's other listings"
 msgstr "Ver otras publicaciones del vendedor"
 
-#: Views\Listing\Listing.cshtml:266
+#: Views\Listing\Listing.cshtml:260
 msgid "View user's profile and other listings"
 msgstr "Ver perfil y otras publicaciones del vendedor"
 
@@ -1962,7 +1963,7 @@ msgstr "Ver perfil y otras publicaciones del vendedor"
 msgid "View Your Profile"
 msgstr "Ver tu perfil"
 
-#: Views\Listing\Listing.cshtml:191
+#: Views\Listing\Listing.cshtml:183
 msgid "Views"
 msgstr "Visitas"
 
@@ -1971,7 +1972,7 @@ msgid "Welcome to {0} Admin Panel!"
 msgstr ""
 
 #: Controllers\AccountController.cs:246
-#: Controllers\ManageController.cs:692
+#: Controllers\ManageController.cs:693
 msgid "Welcome to {0}!"
 msgstr ""
 
@@ -2063,12 +2064,6 @@ msgstr ""
 #: Views\Account\ResetPasswordConfirmation.cshtml:15
 msgid "Your password has been reset."
 msgstr "Tu contraseña fue reiniciada"
-
-msgid "Description"
-msgstr "Descripción"
-
-msgid "I am.../ We are..."
-msgstr "Soy.../ Somos..."
 
 #~ msgid " => ((( and  "
 #~ msgstr ""
@@ -2164,7 +2159,7 @@ msgstr "Soy.../ Somos..."
 #~ msgstr ""
 
 #~ msgid "See all Messages"
-#~ msgstr ""
+#~ msgstr "Ver todos los mensajes"
 
 #~ msgid "Service %0 on %1 - Total Price %2 %3"
 #~ msgstr ""

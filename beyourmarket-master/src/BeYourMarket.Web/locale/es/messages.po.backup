@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-09-02 18:59-03:00\n"
-"PO-Revision-Date: 2017-09-02 18:59-03:00\n"
+"POT-Creation-Date: 2017-09-02 21:02-03:00\n"
+"PO-Revision-Date: 2017-09-02 21:02-03:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,11 +12,11 @@ msgstr ""
 msgid "\", \"(((\").Replace(\""
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:269
+#: Views\Listing\Listing.cshtml:262
 #: Views\Listing\Profile.cshtml:26
 #: Views\Listing\Review.cshtml:36
 msgid "{0:N0} reviews"
-msgstr ""
+msgstr "{0:N0} opiniones"
 
 #: Areas\Admin\Controllers\PluginController.cs:123
 msgid "{0} is disabled"
@@ -51,7 +51,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\Listings.cshtml:67
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:133
 msgid "Active"
-msgstr ""
+msgstr "Activo"
 
 #: Views\Manage\AddPhoneNumber.cshtml:11
 msgid "Add a phone number"
@@ -110,7 +110,7 @@ msgstr ""
 #: Views\Listing\Listings.cshtml:51
 #: Views\Shared\_NavigationSide.cshtml:25
 msgid "All Categories"
-msgstr "Todas las categorias"
+msgstr "Todas las categorías"
 
 #: Areas\Admin\Views\Manage\Settings.cshtml:126
 msgid "Allow Listing Review"
@@ -170,7 +170,7 @@ msgstr ""
 msgid "Button Label"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:130
+#: Views\Listing\ListingUpdate.cshtml:132
 #: Views\Listing\Review.cshtml:74
 #: Views\Payment\Orders.cshtml:26
 #: Views\Payment\Orders.cshtml:30
@@ -225,7 +225,7 @@ msgstr "Categorias"
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:31
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:67
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #: Areas\Admin\Views\Listing\Categories.cshtml:121
 msgid "Category is deleted."
@@ -260,7 +260,7 @@ msgstr ""
 #: Views\Listing\_ListingReviewModal.cshtml:29
 #: Views\Listing\_ListingReviewModal.cshtml:43
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: Models\AccountViewModels.cs:32
 #: Models\ManageViewModels.cs:72
@@ -302,8 +302,8 @@ msgstr "confirme contraseña"
 
 #: Views\Account\Register.cshtml:54
 #: Views\Account\Register.cshtml:55
-#: Views\Listing\ListingUpdate.cshtml:123
 #: Views\Listing\ListingUpdate.cshtml:124
+#: Views\Listing\ListingUpdate.cshtml:125
 #: Views\Manage\RegisterProducer.cshtml:66
 msgid "Confirm Password"
 msgstr "confirme contraseña"
@@ -328,23 +328,23 @@ msgstr ""
 
 #: Views\Home\Contact.cshtml:4
 #: Views\Listing\Listing.cshtml:66
-#: Views\Listing\Listing.cshtml:236
-#: Views\Listing\Listing.cshtml:239
-#: Views\Listing\Listing.cshtml:273
+#: Views\Listing\Listing.cshtml:229
+#: Views\Listing\Listing.cshtml:232
+#: Views\Listing\Listing.cshtml:266
 #: Views\Listing\_ListingContactModal.cshtml:8
 msgid "Contact"
-msgstr "contacto"
+msgstr "Contacto"
 
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:63
 msgid "Contact Email"
-msgstr "correo de contacto"
+msgstr "Correo de contacto"
 
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:56
 msgid "Contact Name"
-msgstr "Nombre de contacto"
+msgstr "Nombre de Contacto"
 
-#: Views\Listing\Listing.cshtml:230
-#: Views\Listing\Listing.cshtml:230
+#: Views\Listing\Listing.cshtml:223
+#: Views\Listing\Listing.cshtml:223
 #: Views\Listing\_ListingContactModal.cshtml:17
 msgid "Contact number (Click to show)"
 msgstr "Número de contacto (Hacer click para mostrar)"
@@ -356,7 +356,7 @@ msgstr "Número de contacto (Hacer click para mostrar)"
 #: Views\Home\Contact.cshtml:16
 #: Views\Shared\_NavigationSide.cshtml:111
 msgid "Contact us"
-msgstr "Contactenos"
+msgstr "Contáctenos"
 
 #: Areas\Admin\Views\ContentPage\ContentPageUpdate.cshtml:4
 #: Areas\Admin\Views\ContentPage\ContentPageUpdate.cshtml:16
@@ -388,7 +388,7 @@ msgstr ""
 #: Views\Shared\_LoginPartial.cshtml:85
 #: Views\Shared\_NavigationSide.cshtml:65
 msgid "Create an account"
-msgstr ""
+msgstr "Crear una cuenta"
 
 #: Areas\Admin\Views\Install\Index.cshtml:39
 msgid "Create Sample Data"
@@ -402,7 +402,7 @@ msgstr ""
 #: Areas\Admin\Views\Manage\EmailTemplates.cshtml:39
 #: Areas\Admin\Views\Payment\Order.cshtml:112
 msgid "Created"
-msgstr ""
+msgstr "Publicado"
 
 #: Areas\Admin\Views\Design\CodeStyle.cshtml:10
 #: Areas\Admin\Views\Design\CodeStyle.cshtml:20
@@ -470,9 +470,9 @@ msgstr ""
 msgid "Date Format"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:175
+#: Views\Listing\Listing.cshtml:167
 msgid "Date Posted"
-msgstr ""
+msgstr "Fecha de publicación"
 
 #: Areas\Admin\Views\Manage\SettingsLanguage.cshtml:17
 msgid "Default Language"
@@ -508,19 +508,19 @@ msgstr ""
 #: Areas\Admin\Views\Payment\Order.cshtml:106
 #: Areas\Admin\Views\Plugin\Plugins.cshtml:99
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: Views\Listing\ListingUpdate.cshtml:49
 msgid "Description..."
-msgstr ""
+msgstr "Descripción"
 
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:90
 msgid "Design"
-msgstr ""
+msgstr "Diseño"
 
 #: Areas\Admin\Views\Plugin\Plugins.cshtml:30
 msgid "Disable"
-msgstr ""
+msgstr "Desactivado"
 
 #: C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Plugins\Plugin.Payment.Stripe\Controllers\PaymentStripeController.cs:193
 msgid "Disconnnect to stripe successfully!"
@@ -573,7 +573,7 @@ msgstr ""
 msgid "Email"
 msgstr "correo"
 
-#: Views\Listing\ListingUpdate.cshtml:113
+#: Views\Listing\ListingUpdate.cshtml:114
 #: Areas\Admin\Views\Manage\SettingsEmail.cshtml:18
 msgid "Email Address"
 msgstr "Dirección de correo"
@@ -635,22 +635,22 @@ msgstr "Ingresar correo"
 msgid "Enter Email"
 msgstr "Ingresar correo"
 
-#: Views\Listing\ListingUpdate.cshtml:114
+#: Views\Listing\ListingUpdate.cshtml:115
 msgid "Enter Email Address"
 msgstr "Ingresar dirección de correo"
 
 #: Views\Listing\ListingUpdate.cshtml:86
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:174
 msgid "Enter Location"
-msgstr ""
+msgstr "Ingresar Ubicación"
 
-#: Views\Listing\ListingUpdate.cshtml:106
+#: Views\Listing\ListingUpdate.cshtml:107
 msgid "Enter Phone Number"
 msgstr ""
 
 #: Views\Listing\ListingUpdate.cshtml:44
 msgid "Enter Title"
-msgstr ""
+msgstr "Ingrese título"
 
 #: Views\Account\VerifyCode.cshtml:12
 #: Views\Manage\VerifyPhoneNumber.cshtml:12
@@ -677,7 +677,7 @@ msgstr ""
 msgid "Enter your email."
 msgstr "Ingrese su correo"
 
-#: Views\Listing\ListingUpdate.cshtml:102
+#: Views\Listing\ListingUpdate.cshtml:103
 msgid "Enter Your Full Name"
 msgstr ""
 
@@ -736,7 +736,7 @@ msgstr "Confirma haber olvidado su contraseña"
 #: Views\Account\ForgotPassword.cshtml:3
 #: Views\Account\Login.cshtml:41
 msgid "Forgot your password?"
-msgstr "¡olvidó su contraseña"
+msgstr "¿Olvidó su contraseña?"
 
 #: Controllers\PaymentController.cs:322
 #: Views\Listing\Listings.cshtml:77
@@ -754,7 +754,7 @@ msgstr ""
 msgid "Frontend"
 msgstr ""
 
-#: Views\Listing\ListingUpdate.cshtml:101
+#: Views\Listing\ListingUpdate.cshtml:102
 msgid "Full Name"
 msgstr ""
 
@@ -865,11 +865,11 @@ msgstr ""
 msgid "Join"
 msgstr "unite"
 
-#: Views\Listing\Listing.cshtml:264
+#: Views\Listing\Listing.cshtml:257
 #: Views\Listing\Profile.cshtml:29
 #: Views\Listing\Review.cshtml:33
 msgid "Joined since"
-msgstr ""
+msgstr "Miembro desde"
 
 #: Areas\Admin\Views\Manage\SettingsLanguage.cshtml:4
 #: Areas\Admin\Views\Manage\SettingsLanguage.cshtml:11
@@ -905,7 +905,7 @@ msgstr ""
 
 #: Views\Account\Login.cshtml:34
 msgid "Let me in"
-msgstr ""
+msgstr "Ingresar"
 
 #: Views\Listing\Listings.cshtml:109
 msgid "List"
@@ -913,21 +913,20 @@ msgstr ""
 
 #: Views\Listing\ListingUpdate.cshtml:34
 msgid "Listing Details"
-msgstr ""
+msgstr "Detalles de la publicación"
 
-#: Views\Listing\Listing.cshtml:183
+#: Views\Listing\Listing.cshtml:175
 msgid "Listing ID"
-msgstr ""
+msgstr "ID de publicación"
 
 #: Controllers\ListingController.cs:595
 msgid "Listing is updated!"
-msgstr ""
+msgstr "Publicación actualizada"
 
 #: Controllers\ListingController.cs:868
 msgid "Listing review is not allowed!"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:159
 #: Views\Listing\Listings.cshtml:55
 #: Views\Shared\_ListingTypes.cshtml:6
 #: Areas\Admin\Views\Listing\CategoryUpdate.cshtml:44
@@ -935,7 +934,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\ListingTypeUpdate.cshtml:16
 #: Areas\Admin\Views\Shared\_ListingTypes.cshtml:5
 msgid "Listing Type"
-msgstr ""
+msgstr "Tipo de publicación"
 
 #: Areas\Admin\Views\Listing\ListingTypes.cshtml:122
 msgid "Listing type is deleted."
@@ -954,7 +953,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:4
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:16
 msgid "Listing Update"
-msgstr ""
+msgstr "Actualización de publicación"
 
 #: Views\Listing\Listings.cshtml:9
 #: Views\Listing\Listings.cshtml:116
@@ -967,13 +966,13 @@ msgstr ""
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:76
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:80
 msgid "Listings"
-msgstr ""
+msgstr "Publicaciones"
 
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:59
 msgid "Listings by category"
-msgstr ""
+msgstr "Publicaciones por categorías"
 
-#: Views\Listing\Listing.cshtml:167
+#: Views\Listing\Listing.cshtml:159
 #: Views\Listing\Listings.cshtml:70
 #: Views\Listing\Listings.cshtml:71
 #: Views\Listing\ListingUpdate.cshtml:83
@@ -982,7 +981,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:170
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:172
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 #: Views\Shared\Lockout.cshtml:4
 msgid "Locked Out"
@@ -1030,16 +1029,16 @@ msgstr ""
 
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:47
 msgid "Male"
-msgstr ""
+msgstr "Hombre"
 
 #: Views\Manage\Index.cshtml:3
 #: Views\Manage\Index.cshtml:29
 msgid "Manage"
-msgstr ""
+msgstr "Administrar"
 
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:82
 msgid "Manage Categories"
-msgstr "Administrar Categorias"
+msgstr "Administrar Categorías"
 
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:83
 msgid "Manage Listing Types"
@@ -1061,17 +1060,17 @@ msgstr ""
 msgid "Manage Users"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:216
+#: Views\Listing\Listing.cshtml:208
 msgid "Map"
-msgstr ""
+msgstr "Mapa"
 
 #: Views\Listing\Listing.cshtml:58
 msgid "Maps"
-msgstr ""
+msgstr "Mapas"
 
 #: Views\Manage\Messages.cshtml:44
 msgid "Mark as read"
-msgstr ""
+msgstr "Marcar como leido"
 
 #: Areas\Admin\Views\Manage\Settings.cshtml:137
 msgid "Max. Review per day"
@@ -1080,7 +1079,7 @@ msgstr ""
 #: Views\Home\Contact.cshtml:28
 #: Views\Listing\_ListingContactModal.cshtml:26
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: Controllers\ManageController.cs:531
 msgid "Message is sent."
@@ -1096,7 +1095,7 @@ msgstr ""
 
 #: Views\Home\Contact.cshtml:29
 msgid "Message..."
-msgstr ""
+msgstr "Mensaje..."
 
 #: Views\Manage\Message.cshtml:5
 #: Views\Manage\Message.cshtml:21
@@ -1105,7 +1104,7 @@ msgstr ""
 #: Views\Shared\_DashBoardSide.cshtml:15
 #: Views\Shared\_LoginPartial.cshtml:23
 msgid "Messages"
-msgstr ""
+msgstr "Mensajes"
 
 #: Areas\Admin\Views\Payment\PaymentSetting.cshtml:37
 msgid "Minimum Transaction fee"
@@ -1117,7 +1116,7 @@ msgstr ""
 
 #: Views\Manage\Dashboard.cshtml:18
 msgid "My Listings"
-msgstr ""
+msgstr "Mis publicaciones"
 
 #: Areas\Admin\Views\Listing\CategoryUpdate.cshtml:19
 #: Areas\Admin\Views\Listing\CustomFields.cshtml:62
@@ -1126,11 +1125,11 @@ msgstr ""
 #: Areas\Admin\Views\Listing\ListingTypeUpdate.cshtml:32
 #: Areas\Admin\Views\Manage\Settings.cshtml:21
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:90
 msgid "New listings"
-msgstr ""
+msgstr "Publicación nueva"
 
 #: Models\ManageViewModels.cs:33
 #: Models\ManageViewModels.cs:52
@@ -1143,7 +1142,7 @@ msgstr "Nueva contraseña"
 
 #: Views\Listing\Listing.cshtml:110
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: App_Code\RazorHelper.cshtml:7
 msgid "No"
@@ -1169,7 +1168,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\CustomFields.cshtml:73
 #: Areas\Admin\Views\Listing\CustomFieldUpdate.cshtml:47
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 #: Controllers\PaymentController.cs:190
 msgid "Order %0 - %1 - Total Price %2 %3. <a href=\\"%4\\">See Details</a>"
@@ -1216,11 +1215,11 @@ msgstr ""
 
 #: Views\Listing\Listings.cshtml:141
 msgid "Page {0} of {1}"
-msgstr ""
+msgstr "Página {0} de {1}"
 
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:136
 msgid "Pages"
-msgstr ""
+msgstr "Páginas"
 
 #: C:\Users\juamp\Desktop\Condor\beyourmarket-master\src\Plugins\Plugin.Payment.Stripe\Views\Transaction.cshtml:21
 #: Plugins\Plugin.Payment.Stripe\Views\Transaction.cshtml:21
@@ -1235,8 +1234,8 @@ msgstr ""
 #: Views\Account\Login.cshtml:28
 #: Views\Account\Register.cshtml:50
 #: Views\Account\Register.cshtml:51
-#: Views\Listing\ListingUpdate.cshtml:119
 #: Views\Listing\ListingUpdate.cshtml:120
+#: Views\Listing\ListingUpdate.cshtml:121
 #: Views\Manage\Index.cshtml:13
 #: Views\Manage\RegisterProducer.cshtml:60
 #: Areas\Admin\Views\Install\Index.cshtml:32
@@ -1282,14 +1281,14 @@ msgid "Pending"
 msgstr ""
 
 #: Models\ManageViewModels.cs:65
-#: Views\Listing\ListingUpdate.cshtml:105
+#: Views\Listing\ListingUpdate.cshtml:106
 #: Views\Manage\AddPhoneNumber.cshtml:3
 #: Views\Manage\RegisterProducer.cshtml:72
 #: Views\Manage\UserProfile.cshtml:56
 #: Areas\Admin\Views\Manage\Users.cshtml:41
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:73
 msgid "Phone Number"
-msgstr ""
+msgstr "Número de teléfono"
 
 #: Areas\Admin\Views\Manage\Users.cshtml:42
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:91
@@ -1298,11 +1297,11 @@ msgstr ""
 
 #: Views\Listing\_ListingGridList.cshtml:32
 msgid "Picture"
-msgstr ""
+msgstr "Foto"
 
 #: Views\Listing\Listing.cshtml:82
 msgid "Pictures"
-msgstr ""
+msgstr "Fotos"
 
 #: Views\Account\ForgotPasswordConfirmation.cshtml:16
 msgid "Please check your email to reset your password."
@@ -1378,12 +1377,12 @@ msgstr ""
 #: Views\Manage\UserProfile.cshtml:29
 #: Views\Shared\_DashBoardSide.cshtml:18
 msgid "Profile"
-msgstr ""
+msgstr "Perfil"
 
 #: Views\Manage\RegisterProducer.cshtml:79
 #: Views\Manage\UserProfile.cshtml:63
 msgid "Profile Picture"
-msgstr ""
+msgstr "Foto de perfil"
 
 #: Areas\Admin\Views\Payment\Order.cshtml:101
 msgid "Provider"
@@ -1391,28 +1390,28 @@ msgstr ""
 
 #: Views\Listing\ListingUpdate.cshtml:17
 msgid "Publish a listing (it's 100% free)"
-msgstr ""
+msgstr "Realizar una publicación"
 
-#: Views\Listing\ListingUpdate.cshtml:129
+#: Views\Listing\ListingUpdate.cshtml:131
 msgid "Publish Listing"
-msgstr ""
+msgstr "Realizar una publicación"
 
 #: Views\Manage\Dashboard.cshtml:28
-#: Views\Shared\_Layout.cshtml:75
+#: Views\Shared\_Layout.cshtml:76
 #: Views\Shared\_LoginPartial.cshtml:65
 #: Views\Shared\_NavigationSide.cshtml:70
 #: Views\Shared\_NavigationSide.cshtml:84
 msgid "Publish new listing"
-msgstr ""
+msgstr "Realizar una nueva publicación"
 
 #: Areas\Admin\Views\ContentPage\ContentPages.cshtml:48
 #: Areas\Admin\Views\ContentPage\ContentPageUpdate.cshtml:62
 msgid "Published"
-msgstr ""
+msgstr "publicado"
 
-#: Views\Listing\ListingUpdate.cshtml:99
+#: Views\Listing\ListingUpdate.cshtml:100
 msgid "Publisher's Info"
-msgstr ""
+msgstr "Información del vendedor"
 
 #: Views\Payment\Orders.cshtml:127
 #: Areas\Admin\Views\Payment\Order.cshtml:108
@@ -1425,7 +1424,7 @@ msgstr ""
 
 #: Views\Listing\Listings.cshtml:44
 msgid "Refine Search"
-msgstr ""
+msgstr "Filtros"
 
 #: Views\Account\Register.cshtml:3
 msgid "Register"
@@ -1445,11 +1444,11 @@ msgstr ""
 
 #: Views\Account\Login.cshtml:32
 msgid "Remeber me?"
-msgstr ""
+msgstr "Recordar usuario"
 
 #: Models\AccountViewModels.cs:61
 msgid "Remember me?"
-msgstr ""
+msgstr "Recordar usuario"
 
 #: Models\AccountViewModels.cs:36
 msgid "Remember this browser?"
@@ -1462,7 +1461,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\CustomFields.cshtml:74
 #: Areas\Admin\Views\Listing\CustomFieldUpdate.cshtml:58
 msgid "Required"
-msgstr ""
+msgstr "Requerido"
 
 #: Views\Account\ResetPassword.cshtml:42
 msgid "Reset"
@@ -1485,14 +1484,14 @@ msgstr "Reiniciar su contraseña"
 #: Views\Listing\_ListingReviewModal.cshtml:57
 #: Views\Payment\Orders.cshtml:35
 msgid "Review"
-msgstr ""
+msgstr "Opinión"
 
 #: Views\Listing\Listing.cshtml:62
 #: Views\Listing\Review.cshtml:5
 #: Views\Listing\_ListingCard.cshtml:26
 #: Views\Listing\_ListingReview.cshtml:11
 msgid "Reviews"
-msgstr ""
+msgstr "Opiniones"
 
 #: Views\Manage\RegisterProducer.cshtml:86
 #: Views\Manage\UserProfile.cshtml:70
@@ -1512,7 +1511,7 @@ msgstr ""
 #: Areas\Admin\Views\Manage\UserUpdate.cshtml:146
 #: Areas\Admin\Views\Payment\PaymentSetting.cshtml:45
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: Views\Home\Index.cshtml:25
 #: Views\Manage\Dashboard.cshtml:24
@@ -1520,7 +1519,7 @@ msgstr ""
 msgid "Search"
 msgstr "buscar"
 
-#: Views\Shared\_Layout.cshtml:62
+#: Views\Shared\_Layout.cshtml:63
 msgid "Search for..."
 msgstr "Buscar..."
 
@@ -1551,7 +1550,7 @@ msgstr ""
 
 #: Views\Home\Index.cshtml:33
 msgid "See All Listings"
-msgstr ""
+msgstr "Ver todas"
 
 #: Views\Shared\_LoginPartial.cshtml:49
 msgid "See all messages"
@@ -1565,20 +1564,20 @@ msgstr ""
 #: Views\Home\Contact.cshtml:34
 #: Views\Listing\_ListingContactModal.cshtml:28
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: Areas\Admin\Views\Manage\EmailTemplateUpdate.cshtml:43
 msgid "Send Copy"
-msgstr ""
+msgstr "Enviar copia"
 
 #: Views\Manage\Message.cshtml:79
 msgid "Send Message"
-msgstr ""
+msgstr "Enviar Mensaje"
 
 #: Views\Listing\Review.cshtml:73
 #: Views\Listing\_ListingReviewModal.cshtml:28
 msgid "Send Review"
-msgstr ""
+msgstr "Enviar opinión"
 
 #: Areas\Admin\Views\Install\Index.cshtml:58
 msgid "Server domain/IP"
@@ -1588,11 +1587,11 @@ msgstr ""
 #: Areas\Admin\Views\Manage\Settings.cshtml:12
 #: Areas\Admin\Views\Shared\_NavigationSide.cshtml:99
 msgid "Settings"
-msgstr ""
+msgstr "Configuración"
 
-#: Views\Listing\Listing.cshtml:278
+#: Views\Listing\Listing.cshtml:271
 msgid "Share"
-msgstr ""
+msgstr "Compartir"
 
 #: Areas\Admin\Views\Listing\ListingTypes.cshtml:81
 #: Areas\Admin\Views\Listing\ListingTypeUpdate.cshtml:69
@@ -1604,18 +1603,18 @@ msgstr ""
 msgid "Show Email"
 msgstr "mostrar correo"
 
-#: Views\Listing\ListingUpdate.cshtml:109
+#: Views\Listing\ListingUpdate.cshtml:110
 msgid "Show Phone"
-msgstr ""
+msgstr "Mostrar teléfono"
 
 #: Views\Manage\Messages.cshtml:118
 msgid "Showing {0} - {1} of {2}"
-msgstr ""
+msgstr "Mostrando {0} - {1} de {2}"
 
 #: Views\Listing\_ListingContactModal.cshtml:40
 #: Views\Listing\_ListingReviewModal.cshtml:42
 msgid "Sign in"
-msgstr ""
+msgstr "Iniciar sesión"
 
 #: Views\Listing\_ListingContactModal.cshtml:37
 msgid "Sign in to contact the owner"
@@ -1664,11 +1663,11 @@ msgstr ""
 #: Areas\Admin\Views\Manage\EmailTemplates.cshtml:37
 #: Areas\Admin\Views\Manage\EmailTemplateUpdate.cshtml:36
 msgid "Subject"
-msgstr ""
+msgstr "Tema"
 
 #: Views\Manage\VerifyPhoneNumber.cshtml:24
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 #: Views\Payment\Orders.cshtml:48
 #: Areas\Admin\Views\Payment\Order.cshtml:43
@@ -1754,7 +1753,7 @@ msgstr ""
 #: Areas\Admin\Views\Manage\Settings.cshtml:81
 #: Areas\Admin\Views\Manage\Settings.cshtml:83
 msgid "Theme"
-msgstr ""
+msgstr "tema"
 
 #: Views\Listing\_ListingGridList.cshtml:28
 #: Views\Payment\Orders.cshtml:102
@@ -1779,7 +1778,7 @@ msgstr ""
 
 #: Views\Shared\_LoginPartial.cshtml:44
 msgid "There are no new messages"
-msgstr ""
+msgstr "No hay nuevos mensajes"
 
 #: Controllers\ListingController.cs:186
 #: Controllers\ListingController.cs:377
@@ -1794,7 +1793,7 @@ msgstr ""
 
 #: Views\Listing\_ListingReview.cshtml:38
 msgid "There is no review yet."
-msgstr ""
+msgstr "Todavia no hay opiniones."
 
 #: Views\Shared\Lockout.cshtml:9
 msgid "This account has been locked out, please try again later."
@@ -1825,7 +1824,7 @@ msgstr ""
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:42
 #: Areas\Admin\Views\Payment\Order.cshtml:99
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: Controllers\PaymentController.cs:322
 #: Views\Listing\Listings.cshtml:78
@@ -1892,7 +1891,7 @@ msgstr ""
 #: Views\Listing\ListingUpdate.cshtml:74
 #: Areas\Admin\Views\Listing\ListingUpdate.cshtml:159
 msgid "Upload Pictures"
-msgstr ""
+msgstr "Subir sus imágenes"
 
 #: Views\Account\_ExternalLoginsListPartial.cshtml:4
 msgid "Use another service to log in."
@@ -1951,22 +1950,22 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: Views\Listing\Listing.cshtml:231
+#: Views\Listing\Listing.cshtml:224
 #: Views\Listing\_ListingContactModal.cshtml:18
 msgid "View User's other listings"
-msgstr ""
+msgstr "Ver otras publicaciones del vendedor"
 
-#: Views\Listing\Listing.cshtml:267
+#: Views\Listing\Listing.cshtml:260
 msgid "View user's profile and other listings"
-msgstr ""
+msgstr "Ver perfil y otras publicaciones del vendedor"
 
 #: Views\Manage\UserProfile.cshtml:30
 msgid "View Your Profile"
-msgstr ""
+msgstr "Ver tu perfil"
 
-#: Views\Listing\Listing.cshtml:191
+#: Views\Listing\Listing.cshtml:183
 msgid "Views"
-msgstr ""
+msgstr "Visitas"
 
 #: Areas\Admin\Views\Manage\Dashboard.cshtml:8
 msgid "Welcome to {0} Admin Panel!"
@@ -2160,7 +2159,7 @@ msgstr "Tu contraseña fue reiniciada"
 #~ msgstr ""
 
 #~ msgid "See all Messages"
-#~ msgstr ""
+#~ msgstr "Ver todos los mensajes"
 
 #~ msgid "Service %0 on %1 - Total Price %2 %3"
 #~ msgstr ""
